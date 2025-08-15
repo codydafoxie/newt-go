@@ -4761,7 +4761,7 @@ struct grid_s *_wrap_newtButtonBarv_newt_b66f7c1329564d0a(_gostring_ _swig_go_0,
   if (argp3 == NULL) {
     _swig_gopanic("Attempt to dereference null va_list");
   }
-  memcpy(&arg3, argp3, sizeof(va_list))
+  memcpy(&arg3, argp3, sizeof(va_list));
   
   
   result = (newtGrid)newtButtonBarv(arg1,arg2,arg3);
