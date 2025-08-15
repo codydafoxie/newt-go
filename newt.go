@@ -17,11 +17,9 @@ typedef void *swig_voidp;
 #include <stddef.h>
 #include <stdint.h>
 
-#cgo LDFLAGS: -lnewt
-#include <newt.h>
 
-typedef long long intgo;
-typedef unsigned long long uintgo;
+typedef ptrdiff_t intgo;
+typedef size_t uintgo;
 
 
 

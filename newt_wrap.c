@@ -190,8 +190,8 @@ static void _swig_gopanic(const char *p) {
 
 
 
-typedef long long intgo;
-typedef unsigned long long uintgo;
+typedef ptrdiff_t intgo;
+typedef size_t uintgo;
 
 
 # if !defined(__clang__) && (defined(__i386__) || defined(__x86_64__))
@@ -4761,7 +4761,7 @@ struct grid_s *_wrap_newtButtonBarv_newt_dfa5496400248dbe(_gostring_ _swig_go_0,
   if (argp3 == NULL) {
     _swig_gopanic("Attempt to dereference null va_list");
   }
-  arg3 = (va_list)*argp3;
+  memcpy(&arg3, argp3, sizeof(va_list));
   
   
   result = (newtGrid)newtButtonBarv(arg1,arg2,arg3);
@@ -4849,7 +4849,7 @@ void _wrap_newtWinMessagev_newt_dfa5496400248dbe(_gostring_ _swig_go_0, _gostrin
   if (argp4 == NULL) {
     _swig_gopanic("Attempt to dereference null va_list");
   }
-  arg4 = (va_list)*argp4;
+  memcpy(&arg4, argp4, sizeof(va_list));
   
   
   newtWinMessagev(arg1,arg2,arg3,arg4);
