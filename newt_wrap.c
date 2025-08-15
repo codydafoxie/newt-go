@@ -13,9 +13,9 @@ extern
 #ifdef __cplusplus
   "C"
 #endif
-  void cgo_panic__newt_dfa5496400248dbe(const char*);
+  void cgo_panic__newt_b66f7c1329564d0a(const char*);
 static void _swig_gopanic(const char *p) {
-  cgo_panic__newt_dfa5496400248dbe(p);
+  cgo_panic__newt_b66f7c1329564d0a(p);
 }
 
 
@@ -225,7 +225,7 @@ static void* Swig_malloc(int c) {
 }
 
 
-#include <newt.h>
+#include "newt.h"
 
 
 #include <string.h>
@@ -240,7 +240,7 @@ typedef union {
 extern "C" {
 #endif
 
-void _wrap_Swig_free_newt_dfa5496400248dbe(void *_swig_go_0) {
+void _wrap_Swig_free_newt_b66f7c1329564d0a(void *_swig_go_0) {
   void *arg1 = (void *) 0 ;
   
   arg1 = *(void **)&_swig_go_0; 
@@ -250,7 +250,7 @@ void _wrap_Swig_free_newt_dfa5496400248dbe(void *_swig_go_0) {
 }
 
 
-void *_wrap_Swig_malloc_newt_dfa5496400248dbe(intgo _swig_go_0) {
+void *_wrap_Swig_malloc_newt_b66f7c1329564d0a(intgo _swig_go_0) {
   int arg1 ;
   void *result = 0 ;
   void *_swig_go_result;
@@ -263,7 +263,7 @@ void *_wrap_Swig_malloc_newt_dfa5496400248dbe(intgo _swig_go_0) {
 }
 
 
-void _wrap_newtColors_rootFg_set_newt_dfa5496400248dbe(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_newtColors_rootFg_set_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -288,7 +288,7 @@ void _wrap_newtColors_rootFg_set_newt_dfa5496400248dbe(struct newtColors *_swig_
 }
 
 
-_gostring_ _wrap_newtColors_rootFg_get_newt_dfa5496400248dbe(struct newtColors *_swig_go_0) {
+_gostring_ _wrap_newtColors_rootFg_get_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -301,7 +301,7 @@ _gostring_ _wrap_newtColors_rootFg_get_newt_dfa5496400248dbe(struct newtColors *
 }
 
 
-void _wrap_newtColors_rootBg_set_newt_dfa5496400248dbe(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_newtColors_rootBg_set_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -326,7 +326,7 @@ void _wrap_newtColors_rootBg_set_newt_dfa5496400248dbe(struct newtColors *_swig_
 }
 
 
-_gostring_ _wrap_newtColors_rootBg_get_newt_dfa5496400248dbe(struct newtColors *_swig_go_0) {
+_gostring_ _wrap_newtColors_rootBg_get_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -339,7 +339,7 @@ _gostring_ _wrap_newtColors_rootBg_get_newt_dfa5496400248dbe(struct newtColors *
 }
 
 
-void _wrap_newtColors_borderFg_set_newt_dfa5496400248dbe(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_newtColors_borderFg_set_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -364,7 +364,7 @@ void _wrap_newtColors_borderFg_set_newt_dfa5496400248dbe(struct newtColors *_swi
 }
 
 
-_gostring_ _wrap_newtColors_borderFg_get_newt_dfa5496400248dbe(struct newtColors *_swig_go_0) {
+_gostring_ _wrap_newtColors_borderFg_get_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -377,7 +377,7 @@ _gostring_ _wrap_newtColors_borderFg_get_newt_dfa5496400248dbe(struct newtColors
 }
 
 
-void _wrap_newtColors_borderBg_set_newt_dfa5496400248dbe(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_newtColors_borderBg_set_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -402,7 +402,7 @@ void _wrap_newtColors_borderBg_set_newt_dfa5496400248dbe(struct newtColors *_swi
 }
 
 
-_gostring_ _wrap_newtColors_borderBg_get_newt_dfa5496400248dbe(struct newtColors *_swig_go_0) {
+_gostring_ _wrap_newtColors_borderBg_get_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -415,7 +415,7 @@ _gostring_ _wrap_newtColors_borderBg_get_newt_dfa5496400248dbe(struct newtColors
 }
 
 
-void _wrap_newtColors_windowFg_set_newt_dfa5496400248dbe(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_newtColors_windowFg_set_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -440,7 +440,7 @@ void _wrap_newtColors_windowFg_set_newt_dfa5496400248dbe(struct newtColors *_swi
 }
 
 
-_gostring_ _wrap_newtColors_windowFg_get_newt_dfa5496400248dbe(struct newtColors *_swig_go_0) {
+_gostring_ _wrap_newtColors_windowFg_get_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -453,7 +453,7 @@ _gostring_ _wrap_newtColors_windowFg_get_newt_dfa5496400248dbe(struct newtColors
 }
 
 
-void _wrap_newtColors_windowBg_set_newt_dfa5496400248dbe(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_newtColors_windowBg_set_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -478,7 +478,7 @@ void _wrap_newtColors_windowBg_set_newt_dfa5496400248dbe(struct newtColors *_swi
 }
 
 
-_gostring_ _wrap_newtColors_windowBg_get_newt_dfa5496400248dbe(struct newtColors *_swig_go_0) {
+_gostring_ _wrap_newtColors_windowBg_get_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -491,7 +491,7 @@ _gostring_ _wrap_newtColors_windowBg_get_newt_dfa5496400248dbe(struct newtColors
 }
 
 
-void _wrap_newtColors_shadowFg_set_newt_dfa5496400248dbe(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_newtColors_shadowFg_set_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -516,7 +516,7 @@ void _wrap_newtColors_shadowFg_set_newt_dfa5496400248dbe(struct newtColors *_swi
 }
 
 
-_gostring_ _wrap_newtColors_shadowFg_get_newt_dfa5496400248dbe(struct newtColors *_swig_go_0) {
+_gostring_ _wrap_newtColors_shadowFg_get_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -529,7 +529,7 @@ _gostring_ _wrap_newtColors_shadowFg_get_newt_dfa5496400248dbe(struct newtColors
 }
 
 
-void _wrap_newtColors_shadowBg_set_newt_dfa5496400248dbe(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_newtColors_shadowBg_set_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -554,7 +554,7 @@ void _wrap_newtColors_shadowBg_set_newt_dfa5496400248dbe(struct newtColors *_swi
 }
 
 
-_gostring_ _wrap_newtColors_shadowBg_get_newt_dfa5496400248dbe(struct newtColors *_swig_go_0) {
+_gostring_ _wrap_newtColors_shadowBg_get_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -567,7 +567,7 @@ _gostring_ _wrap_newtColors_shadowBg_get_newt_dfa5496400248dbe(struct newtColors
 }
 
 
-void _wrap_newtColors_titleFg_set_newt_dfa5496400248dbe(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_newtColors_titleFg_set_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -592,7 +592,7 @@ void _wrap_newtColors_titleFg_set_newt_dfa5496400248dbe(struct newtColors *_swig
 }
 
 
-_gostring_ _wrap_newtColors_titleFg_get_newt_dfa5496400248dbe(struct newtColors *_swig_go_0) {
+_gostring_ _wrap_newtColors_titleFg_get_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -605,7 +605,7 @@ _gostring_ _wrap_newtColors_titleFg_get_newt_dfa5496400248dbe(struct newtColors 
 }
 
 
-void _wrap_newtColors_titleBg_set_newt_dfa5496400248dbe(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_newtColors_titleBg_set_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -630,7 +630,7 @@ void _wrap_newtColors_titleBg_set_newt_dfa5496400248dbe(struct newtColors *_swig
 }
 
 
-_gostring_ _wrap_newtColors_titleBg_get_newt_dfa5496400248dbe(struct newtColors *_swig_go_0) {
+_gostring_ _wrap_newtColors_titleBg_get_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -643,7 +643,7 @@ _gostring_ _wrap_newtColors_titleBg_get_newt_dfa5496400248dbe(struct newtColors 
 }
 
 
-void _wrap_newtColors_buttonFg_set_newt_dfa5496400248dbe(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_newtColors_buttonFg_set_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -668,7 +668,7 @@ void _wrap_newtColors_buttonFg_set_newt_dfa5496400248dbe(struct newtColors *_swi
 }
 
 
-_gostring_ _wrap_newtColors_buttonFg_get_newt_dfa5496400248dbe(struct newtColors *_swig_go_0) {
+_gostring_ _wrap_newtColors_buttonFg_get_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -681,7 +681,7 @@ _gostring_ _wrap_newtColors_buttonFg_get_newt_dfa5496400248dbe(struct newtColors
 }
 
 
-void _wrap_newtColors_buttonBg_set_newt_dfa5496400248dbe(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_newtColors_buttonBg_set_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -706,7 +706,7 @@ void _wrap_newtColors_buttonBg_set_newt_dfa5496400248dbe(struct newtColors *_swi
 }
 
 
-_gostring_ _wrap_newtColors_buttonBg_get_newt_dfa5496400248dbe(struct newtColors *_swig_go_0) {
+_gostring_ _wrap_newtColors_buttonBg_get_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -719,7 +719,7 @@ _gostring_ _wrap_newtColors_buttonBg_get_newt_dfa5496400248dbe(struct newtColors
 }
 
 
-void _wrap_newtColors_actButtonFg_set_newt_dfa5496400248dbe(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_newtColors_actButtonFg_set_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -744,7 +744,7 @@ void _wrap_newtColors_actButtonFg_set_newt_dfa5496400248dbe(struct newtColors *_
 }
 
 
-_gostring_ _wrap_newtColors_actButtonFg_get_newt_dfa5496400248dbe(struct newtColors *_swig_go_0) {
+_gostring_ _wrap_newtColors_actButtonFg_get_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -757,7 +757,7 @@ _gostring_ _wrap_newtColors_actButtonFg_get_newt_dfa5496400248dbe(struct newtCol
 }
 
 
-void _wrap_newtColors_actButtonBg_set_newt_dfa5496400248dbe(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_newtColors_actButtonBg_set_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -782,7 +782,7 @@ void _wrap_newtColors_actButtonBg_set_newt_dfa5496400248dbe(struct newtColors *_
 }
 
 
-_gostring_ _wrap_newtColors_actButtonBg_get_newt_dfa5496400248dbe(struct newtColors *_swig_go_0) {
+_gostring_ _wrap_newtColors_actButtonBg_get_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -795,7 +795,7 @@ _gostring_ _wrap_newtColors_actButtonBg_get_newt_dfa5496400248dbe(struct newtCol
 }
 
 
-void _wrap_newtColors_checkboxFg_set_newt_dfa5496400248dbe(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_newtColors_checkboxFg_set_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -820,7 +820,7 @@ void _wrap_newtColors_checkboxFg_set_newt_dfa5496400248dbe(struct newtColors *_s
 }
 
 
-_gostring_ _wrap_newtColors_checkboxFg_get_newt_dfa5496400248dbe(struct newtColors *_swig_go_0) {
+_gostring_ _wrap_newtColors_checkboxFg_get_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -833,7 +833,7 @@ _gostring_ _wrap_newtColors_checkboxFg_get_newt_dfa5496400248dbe(struct newtColo
 }
 
 
-void _wrap_newtColors_checkboxBg_set_newt_dfa5496400248dbe(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_newtColors_checkboxBg_set_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -858,7 +858,7 @@ void _wrap_newtColors_checkboxBg_set_newt_dfa5496400248dbe(struct newtColors *_s
 }
 
 
-_gostring_ _wrap_newtColors_checkboxBg_get_newt_dfa5496400248dbe(struct newtColors *_swig_go_0) {
+_gostring_ _wrap_newtColors_checkboxBg_get_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -871,7 +871,7 @@ _gostring_ _wrap_newtColors_checkboxBg_get_newt_dfa5496400248dbe(struct newtColo
 }
 
 
-void _wrap_newtColors_actCheckboxFg_set_newt_dfa5496400248dbe(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_newtColors_actCheckboxFg_set_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -896,7 +896,7 @@ void _wrap_newtColors_actCheckboxFg_set_newt_dfa5496400248dbe(struct newtColors 
 }
 
 
-_gostring_ _wrap_newtColors_actCheckboxFg_get_newt_dfa5496400248dbe(struct newtColors *_swig_go_0) {
+_gostring_ _wrap_newtColors_actCheckboxFg_get_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -909,7 +909,7 @@ _gostring_ _wrap_newtColors_actCheckboxFg_get_newt_dfa5496400248dbe(struct newtC
 }
 
 
-void _wrap_newtColors_actCheckboxBg_set_newt_dfa5496400248dbe(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_newtColors_actCheckboxBg_set_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -934,7 +934,7 @@ void _wrap_newtColors_actCheckboxBg_set_newt_dfa5496400248dbe(struct newtColors 
 }
 
 
-_gostring_ _wrap_newtColors_actCheckboxBg_get_newt_dfa5496400248dbe(struct newtColors *_swig_go_0) {
+_gostring_ _wrap_newtColors_actCheckboxBg_get_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -947,7 +947,7 @@ _gostring_ _wrap_newtColors_actCheckboxBg_get_newt_dfa5496400248dbe(struct newtC
 }
 
 
-void _wrap_newtColors_entryFg_set_newt_dfa5496400248dbe(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_newtColors_entryFg_set_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -972,7 +972,7 @@ void _wrap_newtColors_entryFg_set_newt_dfa5496400248dbe(struct newtColors *_swig
 }
 
 
-_gostring_ _wrap_newtColors_entryFg_get_newt_dfa5496400248dbe(struct newtColors *_swig_go_0) {
+_gostring_ _wrap_newtColors_entryFg_get_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -985,7 +985,7 @@ _gostring_ _wrap_newtColors_entryFg_get_newt_dfa5496400248dbe(struct newtColors 
 }
 
 
-void _wrap_newtColors_entryBg_set_newt_dfa5496400248dbe(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_newtColors_entryBg_set_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -1010,7 +1010,7 @@ void _wrap_newtColors_entryBg_set_newt_dfa5496400248dbe(struct newtColors *_swig
 }
 
 
-_gostring_ _wrap_newtColors_entryBg_get_newt_dfa5496400248dbe(struct newtColors *_swig_go_0) {
+_gostring_ _wrap_newtColors_entryBg_get_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -1023,7 +1023,7 @@ _gostring_ _wrap_newtColors_entryBg_get_newt_dfa5496400248dbe(struct newtColors 
 }
 
 
-void _wrap_newtColors_labelFg_set_newt_dfa5496400248dbe(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_newtColors_labelFg_set_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -1048,7 +1048,7 @@ void _wrap_newtColors_labelFg_set_newt_dfa5496400248dbe(struct newtColors *_swig
 }
 
 
-_gostring_ _wrap_newtColors_labelFg_get_newt_dfa5496400248dbe(struct newtColors *_swig_go_0) {
+_gostring_ _wrap_newtColors_labelFg_get_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -1061,7 +1061,7 @@ _gostring_ _wrap_newtColors_labelFg_get_newt_dfa5496400248dbe(struct newtColors 
 }
 
 
-void _wrap_newtColors_labelBg_set_newt_dfa5496400248dbe(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_newtColors_labelBg_set_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -1086,7 +1086,7 @@ void _wrap_newtColors_labelBg_set_newt_dfa5496400248dbe(struct newtColors *_swig
 }
 
 
-_gostring_ _wrap_newtColors_labelBg_get_newt_dfa5496400248dbe(struct newtColors *_swig_go_0) {
+_gostring_ _wrap_newtColors_labelBg_get_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -1099,7 +1099,7 @@ _gostring_ _wrap_newtColors_labelBg_get_newt_dfa5496400248dbe(struct newtColors 
 }
 
 
-void _wrap_newtColors_listboxFg_set_newt_dfa5496400248dbe(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_newtColors_listboxFg_set_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -1124,7 +1124,7 @@ void _wrap_newtColors_listboxFg_set_newt_dfa5496400248dbe(struct newtColors *_sw
 }
 
 
-_gostring_ _wrap_newtColors_listboxFg_get_newt_dfa5496400248dbe(struct newtColors *_swig_go_0) {
+_gostring_ _wrap_newtColors_listboxFg_get_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -1137,7 +1137,7 @@ _gostring_ _wrap_newtColors_listboxFg_get_newt_dfa5496400248dbe(struct newtColor
 }
 
 
-void _wrap_newtColors_listboxBg_set_newt_dfa5496400248dbe(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_newtColors_listboxBg_set_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -1162,7 +1162,7 @@ void _wrap_newtColors_listboxBg_set_newt_dfa5496400248dbe(struct newtColors *_sw
 }
 
 
-_gostring_ _wrap_newtColors_listboxBg_get_newt_dfa5496400248dbe(struct newtColors *_swig_go_0) {
+_gostring_ _wrap_newtColors_listboxBg_get_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -1175,7 +1175,7 @@ _gostring_ _wrap_newtColors_listboxBg_get_newt_dfa5496400248dbe(struct newtColor
 }
 
 
-void _wrap_newtColors_actListboxFg_set_newt_dfa5496400248dbe(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_newtColors_actListboxFg_set_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -1200,7 +1200,7 @@ void _wrap_newtColors_actListboxFg_set_newt_dfa5496400248dbe(struct newtColors *
 }
 
 
-_gostring_ _wrap_newtColors_actListboxFg_get_newt_dfa5496400248dbe(struct newtColors *_swig_go_0) {
+_gostring_ _wrap_newtColors_actListboxFg_get_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -1213,7 +1213,7 @@ _gostring_ _wrap_newtColors_actListboxFg_get_newt_dfa5496400248dbe(struct newtCo
 }
 
 
-void _wrap_newtColors_actListboxBg_set_newt_dfa5496400248dbe(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_newtColors_actListboxBg_set_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -1238,7 +1238,7 @@ void _wrap_newtColors_actListboxBg_set_newt_dfa5496400248dbe(struct newtColors *
 }
 
 
-_gostring_ _wrap_newtColors_actListboxBg_get_newt_dfa5496400248dbe(struct newtColors *_swig_go_0) {
+_gostring_ _wrap_newtColors_actListboxBg_get_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -1251,7 +1251,7 @@ _gostring_ _wrap_newtColors_actListboxBg_get_newt_dfa5496400248dbe(struct newtCo
 }
 
 
-void _wrap_newtColors_textboxFg_set_newt_dfa5496400248dbe(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_newtColors_textboxFg_set_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -1276,7 +1276,7 @@ void _wrap_newtColors_textboxFg_set_newt_dfa5496400248dbe(struct newtColors *_sw
 }
 
 
-_gostring_ _wrap_newtColors_textboxFg_get_newt_dfa5496400248dbe(struct newtColors *_swig_go_0) {
+_gostring_ _wrap_newtColors_textboxFg_get_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -1289,7 +1289,7 @@ _gostring_ _wrap_newtColors_textboxFg_get_newt_dfa5496400248dbe(struct newtColor
 }
 
 
-void _wrap_newtColors_textboxBg_set_newt_dfa5496400248dbe(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_newtColors_textboxBg_set_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -1314,7 +1314,7 @@ void _wrap_newtColors_textboxBg_set_newt_dfa5496400248dbe(struct newtColors *_sw
 }
 
 
-_gostring_ _wrap_newtColors_textboxBg_get_newt_dfa5496400248dbe(struct newtColors *_swig_go_0) {
+_gostring_ _wrap_newtColors_textboxBg_get_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -1327,7 +1327,7 @@ _gostring_ _wrap_newtColors_textboxBg_get_newt_dfa5496400248dbe(struct newtColor
 }
 
 
-void _wrap_newtColors_actTextboxFg_set_newt_dfa5496400248dbe(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_newtColors_actTextboxFg_set_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -1352,7 +1352,7 @@ void _wrap_newtColors_actTextboxFg_set_newt_dfa5496400248dbe(struct newtColors *
 }
 
 
-_gostring_ _wrap_newtColors_actTextboxFg_get_newt_dfa5496400248dbe(struct newtColors *_swig_go_0) {
+_gostring_ _wrap_newtColors_actTextboxFg_get_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -1365,7 +1365,7 @@ _gostring_ _wrap_newtColors_actTextboxFg_get_newt_dfa5496400248dbe(struct newtCo
 }
 
 
-void _wrap_newtColors_actTextboxBg_set_newt_dfa5496400248dbe(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_newtColors_actTextboxBg_set_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -1390,7 +1390,7 @@ void _wrap_newtColors_actTextboxBg_set_newt_dfa5496400248dbe(struct newtColors *
 }
 
 
-_gostring_ _wrap_newtColors_actTextboxBg_get_newt_dfa5496400248dbe(struct newtColors *_swig_go_0) {
+_gostring_ _wrap_newtColors_actTextboxBg_get_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -1403,7 +1403,7 @@ _gostring_ _wrap_newtColors_actTextboxBg_get_newt_dfa5496400248dbe(struct newtCo
 }
 
 
-void _wrap_newtColors_helpLineFg_set_newt_dfa5496400248dbe(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_newtColors_helpLineFg_set_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -1428,7 +1428,7 @@ void _wrap_newtColors_helpLineFg_set_newt_dfa5496400248dbe(struct newtColors *_s
 }
 
 
-_gostring_ _wrap_newtColors_helpLineFg_get_newt_dfa5496400248dbe(struct newtColors *_swig_go_0) {
+_gostring_ _wrap_newtColors_helpLineFg_get_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -1441,7 +1441,7 @@ _gostring_ _wrap_newtColors_helpLineFg_get_newt_dfa5496400248dbe(struct newtColo
 }
 
 
-void _wrap_newtColors_helpLineBg_set_newt_dfa5496400248dbe(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_newtColors_helpLineBg_set_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -1466,7 +1466,7 @@ void _wrap_newtColors_helpLineBg_set_newt_dfa5496400248dbe(struct newtColors *_s
 }
 
 
-_gostring_ _wrap_newtColors_helpLineBg_get_newt_dfa5496400248dbe(struct newtColors *_swig_go_0) {
+_gostring_ _wrap_newtColors_helpLineBg_get_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -1479,7 +1479,7 @@ _gostring_ _wrap_newtColors_helpLineBg_get_newt_dfa5496400248dbe(struct newtColo
 }
 
 
-void _wrap_newtColors_rootTextFg_set_newt_dfa5496400248dbe(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_newtColors_rootTextFg_set_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -1504,7 +1504,7 @@ void _wrap_newtColors_rootTextFg_set_newt_dfa5496400248dbe(struct newtColors *_s
 }
 
 
-_gostring_ _wrap_newtColors_rootTextFg_get_newt_dfa5496400248dbe(struct newtColors *_swig_go_0) {
+_gostring_ _wrap_newtColors_rootTextFg_get_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -1517,7 +1517,7 @@ _gostring_ _wrap_newtColors_rootTextFg_get_newt_dfa5496400248dbe(struct newtColo
 }
 
 
-void _wrap_newtColors_rootTextBg_set_newt_dfa5496400248dbe(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_newtColors_rootTextBg_set_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -1542,7 +1542,7 @@ void _wrap_newtColors_rootTextBg_set_newt_dfa5496400248dbe(struct newtColors *_s
 }
 
 
-_gostring_ _wrap_newtColors_rootTextBg_get_newt_dfa5496400248dbe(struct newtColors *_swig_go_0) {
+_gostring_ _wrap_newtColors_rootTextBg_get_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -1555,7 +1555,7 @@ _gostring_ _wrap_newtColors_rootTextBg_get_newt_dfa5496400248dbe(struct newtColo
 }
 
 
-void _wrap_newtColors_emptyScale_set_newt_dfa5496400248dbe(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_newtColors_emptyScale_set_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -1580,7 +1580,7 @@ void _wrap_newtColors_emptyScale_set_newt_dfa5496400248dbe(struct newtColors *_s
 }
 
 
-_gostring_ _wrap_newtColors_emptyScale_get_newt_dfa5496400248dbe(struct newtColors *_swig_go_0) {
+_gostring_ _wrap_newtColors_emptyScale_get_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -1593,7 +1593,7 @@ _gostring_ _wrap_newtColors_emptyScale_get_newt_dfa5496400248dbe(struct newtColo
 }
 
 
-void _wrap_newtColors_fullScale_set_newt_dfa5496400248dbe(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_newtColors_fullScale_set_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -1618,7 +1618,7 @@ void _wrap_newtColors_fullScale_set_newt_dfa5496400248dbe(struct newtColors *_sw
 }
 
 
-_gostring_ _wrap_newtColors_fullScale_get_newt_dfa5496400248dbe(struct newtColors *_swig_go_0) {
+_gostring_ _wrap_newtColors_fullScale_get_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -1631,7 +1631,7 @@ _gostring_ _wrap_newtColors_fullScale_get_newt_dfa5496400248dbe(struct newtColor
 }
 
 
-void _wrap_newtColors_disabledEntryFg_set_newt_dfa5496400248dbe(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_newtColors_disabledEntryFg_set_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -1656,7 +1656,7 @@ void _wrap_newtColors_disabledEntryFg_set_newt_dfa5496400248dbe(struct newtColor
 }
 
 
-_gostring_ _wrap_newtColors_disabledEntryFg_get_newt_dfa5496400248dbe(struct newtColors *_swig_go_0) {
+_gostring_ _wrap_newtColors_disabledEntryFg_get_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -1669,7 +1669,7 @@ _gostring_ _wrap_newtColors_disabledEntryFg_get_newt_dfa5496400248dbe(struct new
 }
 
 
-void _wrap_newtColors_disabledEntryBg_set_newt_dfa5496400248dbe(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_newtColors_disabledEntryBg_set_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -1694,7 +1694,7 @@ void _wrap_newtColors_disabledEntryBg_set_newt_dfa5496400248dbe(struct newtColor
 }
 
 
-_gostring_ _wrap_newtColors_disabledEntryBg_get_newt_dfa5496400248dbe(struct newtColors *_swig_go_0) {
+_gostring_ _wrap_newtColors_disabledEntryBg_get_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -1707,7 +1707,7 @@ _gostring_ _wrap_newtColors_disabledEntryBg_get_newt_dfa5496400248dbe(struct new
 }
 
 
-void _wrap_newtColors_compactButtonFg_set_newt_dfa5496400248dbe(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_newtColors_compactButtonFg_set_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -1732,7 +1732,7 @@ void _wrap_newtColors_compactButtonFg_set_newt_dfa5496400248dbe(struct newtColor
 }
 
 
-_gostring_ _wrap_newtColors_compactButtonFg_get_newt_dfa5496400248dbe(struct newtColors *_swig_go_0) {
+_gostring_ _wrap_newtColors_compactButtonFg_get_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -1745,7 +1745,7 @@ _gostring_ _wrap_newtColors_compactButtonFg_get_newt_dfa5496400248dbe(struct new
 }
 
 
-void _wrap_newtColors_compactButtonBg_set_newt_dfa5496400248dbe(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_newtColors_compactButtonBg_set_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -1770,7 +1770,7 @@ void _wrap_newtColors_compactButtonBg_set_newt_dfa5496400248dbe(struct newtColor
 }
 
 
-_gostring_ _wrap_newtColors_compactButtonBg_get_newt_dfa5496400248dbe(struct newtColors *_swig_go_0) {
+_gostring_ _wrap_newtColors_compactButtonBg_get_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -1783,7 +1783,7 @@ _gostring_ _wrap_newtColors_compactButtonBg_get_newt_dfa5496400248dbe(struct new
 }
 
 
-void _wrap_newtColors_actSelListboxFg_set_newt_dfa5496400248dbe(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_newtColors_actSelListboxFg_set_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -1808,7 +1808,7 @@ void _wrap_newtColors_actSelListboxFg_set_newt_dfa5496400248dbe(struct newtColor
 }
 
 
-_gostring_ _wrap_newtColors_actSelListboxFg_get_newt_dfa5496400248dbe(struct newtColors *_swig_go_0) {
+_gostring_ _wrap_newtColors_actSelListboxFg_get_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -1821,7 +1821,7 @@ _gostring_ _wrap_newtColors_actSelListboxFg_get_newt_dfa5496400248dbe(struct new
 }
 
 
-void _wrap_newtColors_actSelListboxBg_set_newt_dfa5496400248dbe(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_newtColors_actSelListboxBg_set_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -1846,7 +1846,7 @@ void _wrap_newtColors_actSelListboxBg_set_newt_dfa5496400248dbe(struct newtColor
 }
 
 
-_gostring_ _wrap_newtColors_actSelListboxBg_get_newt_dfa5496400248dbe(struct newtColors *_swig_go_0) {
+_gostring_ _wrap_newtColors_actSelListboxBg_get_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -1859,7 +1859,7 @@ _gostring_ _wrap_newtColors_actSelListboxBg_get_newt_dfa5496400248dbe(struct new
 }
 
 
-void _wrap_newtColors_selListboxFg_set_newt_dfa5496400248dbe(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_newtColors_selListboxFg_set_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -1884,7 +1884,7 @@ void _wrap_newtColors_selListboxFg_set_newt_dfa5496400248dbe(struct newtColors *
 }
 
 
-_gostring_ _wrap_newtColors_selListboxFg_get_newt_dfa5496400248dbe(struct newtColors *_swig_go_0) {
+_gostring_ _wrap_newtColors_selListboxFg_get_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -1897,7 +1897,7 @@ _gostring_ _wrap_newtColors_selListboxFg_get_newt_dfa5496400248dbe(struct newtCo
 }
 
 
-void _wrap_newtColors_selListboxBg_set_newt_dfa5496400248dbe(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_newtColors_selListboxBg_set_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0, _gostring_ _swig_go_1) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -1922,7 +1922,7 @@ void _wrap_newtColors_selListboxBg_set_newt_dfa5496400248dbe(struct newtColors *
 }
 
 
-_gostring_ _wrap_newtColors_selListboxBg_get_newt_dfa5496400248dbe(struct newtColors *_swig_go_0) {
+_gostring_ _wrap_newtColors_selListboxBg_get_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -1935,7 +1935,7 @@ _gostring_ _wrap_newtColors_selListboxBg_get_newt_dfa5496400248dbe(struct newtCo
 }
 
 
-struct newtColors *_wrap_new_newtColors_newt_dfa5496400248dbe() {
+struct newtColors *_wrap_new_newtColors_newt_b66f7c1329564d0a() {
   struct newtColors *result = 0 ;
   struct newtColors *_swig_go_result;
   
@@ -1946,7 +1946,7 @@ struct newtColors *_wrap_new_newtColors_newt_dfa5496400248dbe() {
 }
 
 
-void _wrap_delete_newtColors_newt_dfa5496400248dbe(struct newtColors *_swig_go_0) {
+void _wrap_delete_newtColors_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0) {
   struct newtColors *arg1 = (struct newtColors *) 0 ;
   
   arg1 = *(struct newtColors **)&_swig_go_0; 
@@ -1956,7 +1956,7 @@ void _wrap_delete_newtColors_newt_dfa5496400248dbe(struct newtColors *_swig_go_0
 }
 
 
-intgo _wrap_NEWT_FLAGS_SET_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_FLAGS_SET_newt_b66f7c1329564d0a() {
   enum newtFlagsSense result;
   intgo _swig_go_result;
   
@@ -1968,7 +1968,7 @@ intgo _wrap_NEWT_FLAGS_SET_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_FLAGS_RESET_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_FLAGS_RESET_newt_b66f7c1329564d0a() {
   enum newtFlagsSense result;
   intgo _swig_go_result;
   
@@ -1980,7 +1980,7 @@ intgo _wrap_NEWT_FLAGS_RESET_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_FLAGS_TOGGLE_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_FLAGS_TOGGLE_newt_b66f7c1329564d0a() {
   enum newtFlagsSense result;
   intgo _swig_go_result;
   
@@ -1992,7 +1992,7 @@ intgo _wrap_NEWT_FLAGS_TOGGLE_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_FLAG_RETURNEXIT_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_FLAG_RETURNEXIT_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -2003,7 +2003,7 @@ intgo _wrap_NEWT_FLAG_RETURNEXIT_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_FLAG_HIDDEN_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_FLAG_HIDDEN_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -2014,7 +2014,7 @@ intgo _wrap_NEWT_FLAG_HIDDEN_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_FLAG_SCROLL_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_FLAG_SCROLL_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -2025,7 +2025,7 @@ intgo _wrap_NEWT_FLAG_SCROLL_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_FLAG_DISABLED_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_FLAG_DISABLED_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -2036,7 +2036,7 @@ intgo _wrap_NEWT_FLAG_DISABLED_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_FLAG_BORDER_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_FLAG_BORDER_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -2047,7 +2047,7 @@ intgo _wrap_NEWT_FLAG_BORDER_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_FLAG_WRAP_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_FLAG_WRAP_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -2058,7 +2058,7 @@ intgo _wrap_NEWT_FLAG_WRAP_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_FLAG_NOF12_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_FLAG_NOF12_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -2069,7 +2069,7 @@ intgo _wrap_NEWT_FLAG_NOF12_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_FLAG_MULTIPLE_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_FLAG_MULTIPLE_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -2080,7 +2080,7 @@ intgo _wrap_NEWT_FLAG_MULTIPLE_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_FLAG_SELECTED_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_FLAG_SELECTED_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -2091,7 +2091,7 @@ intgo _wrap_NEWT_FLAG_SELECTED_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_FLAG_CHECKBOX_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_FLAG_CHECKBOX_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -2102,7 +2102,7 @@ intgo _wrap_NEWT_FLAG_CHECKBOX_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_FLAG_PASSWORD_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_FLAG_PASSWORD_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -2113,7 +2113,7 @@ intgo _wrap_NEWT_FLAG_PASSWORD_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_FLAG_SHOWCURSOR_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_FLAG_SHOWCURSOR_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -2124,7 +2124,7 @@ intgo _wrap_NEWT_FLAG_SHOWCURSOR_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_FD_READ_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_FD_READ_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -2135,7 +2135,7 @@ intgo _wrap_NEWT_FD_READ_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_FD_WRITE_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_FD_WRITE_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -2146,7 +2146,7 @@ intgo _wrap_NEWT_FD_WRITE_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_FD_EXCEPT_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_FD_EXCEPT_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -2157,7 +2157,7 @@ intgo _wrap_NEWT_FD_EXCEPT_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_CHECKBOXTREE_UNSELECTABLE_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_CHECKBOXTREE_UNSELECTABLE_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -2168,7 +2168,7 @@ intgo _wrap_NEWT_CHECKBOXTREE_UNSELECTABLE_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_CHECKBOXTREE_HIDE_BOX_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_CHECKBOXTREE_HIDE_BOX_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -2179,7 +2179,7 @@ intgo _wrap_NEWT_CHECKBOXTREE_HIDE_BOX_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_LISTBOX_RETURNEXIT_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_LISTBOX_RETURNEXIT_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -2190,7 +2190,7 @@ intgo _wrap_NEWT_LISTBOX_RETURNEXIT_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_ENTRY_SCROLL_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_ENTRY_SCROLL_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -2201,7 +2201,7 @@ intgo _wrap_NEWT_ENTRY_SCROLL_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_ENTRY_HIDDEN_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_ENTRY_HIDDEN_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -2212,7 +2212,7 @@ intgo _wrap_NEWT_ENTRY_HIDDEN_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_ENTRY_RETURNEXIT_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_ENTRY_RETURNEXIT_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -2223,7 +2223,7 @@ intgo _wrap_NEWT_ENTRY_RETURNEXIT_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_ENTRY_DISABLED_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_ENTRY_DISABLED_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -2234,7 +2234,7 @@ intgo _wrap_NEWT_ENTRY_DISABLED_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_TEXTBOX_WRAP_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_TEXTBOX_WRAP_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -2245,7 +2245,7 @@ intgo _wrap_NEWT_TEXTBOX_WRAP_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_TEXTBOX_SCROLL_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_TEXTBOX_SCROLL_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -2256,7 +2256,7 @@ intgo _wrap_NEWT_TEXTBOX_SCROLL_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_FORM_NOF12_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_FORM_NOF12_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -2267,7 +2267,7 @@ intgo _wrap_NEWT_FORM_NOF12_newt_dfa5496400248dbe() {
 }
 
 
-struct newtColors *_wrap_newtDefaultColorPalette_get_newt_dfa5496400248dbe() {
+struct newtColors *_wrap_newtDefaultColorPalette_get_newt_b66f7c1329564d0a() {
   struct newtColors *result = 0 ;
   struct newtColors *_swig_go_result;
   
@@ -2278,7 +2278,7 @@ struct newtColors *_wrap_newtDefaultColorPalette_get_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_newtInit_newt_dfa5496400248dbe() {
+intgo _wrap_newtInit_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -2289,7 +2289,7 @@ intgo _wrap_newtInit_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_newtFinished_newt_dfa5496400248dbe() {
+intgo _wrap_newtFinished_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -2300,13 +2300,13 @@ intgo _wrap_newtFinished_newt_dfa5496400248dbe() {
 }
 
 
-void _wrap_newtCls_newt_dfa5496400248dbe() {
+void _wrap_newtCls_newt_b66f7c1329564d0a() {
   newtCls();
   
 }
 
 
-void _wrap_newtResizeScreen_newt_dfa5496400248dbe(intgo _swig_go_0) {
+void _wrap_newtResizeScreen_newt_b66f7c1329564d0a(intgo _swig_go_0) {
   int arg1 ;
   
   arg1 = (int)_swig_go_0; 
@@ -2316,19 +2316,19 @@ void _wrap_newtResizeScreen_newt_dfa5496400248dbe(intgo _swig_go_0) {
 }
 
 
-void _wrap_newtWaitForKey_newt_dfa5496400248dbe() {
+void _wrap_newtWaitForKey_newt_b66f7c1329564d0a() {
   newtWaitForKey();
   
 }
 
 
-void _wrap_newtClearKeyBuffer_newt_dfa5496400248dbe() {
+void _wrap_newtClearKeyBuffer_newt_b66f7c1329564d0a() {
   newtClearKeyBuffer();
   
 }
 
 
-void _wrap_newtDelay_newt_dfa5496400248dbe(intgo _swig_go_0) {
+void _wrap_newtDelay_newt_b66f7c1329564d0a(intgo _swig_go_0) {
   unsigned int arg1 ;
   
   arg1 = (unsigned int)_swig_go_0; 
@@ -2338,7 +2338,7 @@ void _wrap_newtDelay_newt_dfa5496400248dbe(intgo _swig_go_0) {
 }
 
 
-intgo _wrap_newtOpenWindow_newt_dfa5496400248dbe(intgo _swig_go_0, intgo _swig_go_1, intgo _swig_go_2, intgo _swig_go_3, _gostring_ _swig_go_4) {
+intgo _wrap_newtOpenWindow_newt_b66f7c1329564d0a(intgo _swig_go_0, intgo _swig_go_1, intgo _swig_go_2, intgo _swig_go_3, _gostring_ _swig_go_4) {
   int arg1 ;
   int arg2 ;
   unsigned int arg3 ;
@@ -2364,7 +2364,7 @@ intgo _wrap_newtOpenWindow_newt_dfa5496400248dbe(intgo _swig_go_0, intgo _swig_g
 }
 
 
-intgo _wrap_newtCenteredWindow_newt_dfa5496400248dbe(intgo _swig_go_0, intgo _swig_go_1, _gostring_ _swig_go_2) {
+intgo _wrap_newtCenteredWindow_newt_b66f7c1329564d0a(intgo _swig_go_0, intgo _swig_go_1, _gostring_ _swig_go_2) {
   unsigned int arg1 ;
   unsigned int arg2 ;
   char *arg3 = (char *) 0 ;
@@ -2386,19 +2386,19 @@ intgo _wrap_newtCenteredWindow_newt_dfa5496400248dbe(intgo _swig_go_0, intgo _sw
 }
 
 
-void _wrap_newtPopWindow_newt_dfa5496400248dbe() {
+void _wrap_newtPopWindow_newt_b66f7c1329564d0a() {
   newtPopWindow();
   
 }
 
 
-void _wrap_newtPopWindowNoRefresh_newt_dfa5496400248dbe() {
+void _wrap_newtPopWindowNoRefresh_newt_b66f7c1329564d0a() {
   newtPopWindowNoRefresh();
   
 }
 
 
-void _wrap_newtSetColors_newt_dfa5496400248dbe(struct newtColors *_swig_go_0) {
+void _wrap_newtSetColors_newt_b66f7c1329564d0a(struct newtColors *_swig_go_0) {
   struct newtColors arg1 ;
   struct newtColors *argp1 ;
   
@@ -2415,7 +2415,7 @@ void _wrap_newtSetColors_newt_dfa5496400248dbe(struct newtColors *_swig_go_0) {
 }
 
 
-void _wrap_newtSetColor_newt_dfa5496400248dbe(intgo _swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2) {
+void _wrap_newtSetColor_newt_b66f7c1329564d0a(intgo _swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2) {
   int arg1 ;
   char *arg2 = (char *) 0 ;
   char *arg3 = (char *) 0 ;
@@ -2439,19 +2439,19 @@ void _wrap_newtSetColor_newt_dfa5496400248dbe(intgo _swig_go_0, _gostring_ _swig
 }
 
 
-void _wrap_newtRefresh_newt_dfa5496400248dbe() {
+void _wrap_newtRefresh_newt_b66f7c1329564d0a() {
   newtRefresh();
   
 }
 
 
-void _wrap_newtSuspend_newt_dfa5496400248dbe() {
+void _wrap_newtSuspend_newt_b66f7c1329564d0a() {
   newtSuspend();
   
 }
 
 
-void _wrap_newtSetSuspendCallback_newt_dfa5496400248dbe(void* _swig_go_0, void *_swig_go_1) {
+void _wrap_newtSetSuspendCallback_newt_b66f7c1329564d0a(void* _swig_go_0, void *_swig_go_1) {
   newtSuspendCallback arg1 = (newtSuspendCallback) 0 ;
   void *arg2 = (void *) 0 ;
   
@@ -2463,7 +2463,7 @@ void _wrap_newtSetSuspendCallback_newt_dfa5496400248dbe(void* _swig_go_0, void *
 }
 
 
-void _wrap_newtSetHelpCallback_newt_dfa5496400248dbe(void* _swig_go_0) {
+void _wrap_newtSetHelpCallback_newt_b66f7c1329564d0a(void* _swig_go_0) {
   newtCallback arg1 = (newtCallback) 0 ;
   
   arg1 = *(newtCallback *)&_swig_go_0; 
@@ -2473,7 +2473,7 @@ void _wrap_newtSetHelpCallback_newt_dfa5496400248dbe(void* _swig_go_0) {
 }
 
 
-intgo _wrap_newtResume_newt_dfa5496400248dbe() {
+intgo _wrap_newtResume_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -2484,7 +2484,7 @@ intgo _wrap_newtResume_newt_dfa5496400248dbe() {
 }
 
 
-void _wrap_newtPushHelpLine_newt_dfa5496400248dbe(_gostring_ _swig_go_0) {
+void _wrap_newtPushHelpLine_newt_b66f7c1329564d0a(_gostring_ _swig_go_0) {
   char *arg1 = (char *) 0 ;
   
   
@@ -2499,19 +2499,19 @@ void _wrap_newtPushHelpLine_newt_dfa5496400248dbe(_gostring_ _swig_go_0) {
 }
 
 
-void _wrap_newtRedrawHelpLine_newt_dfa5496400248dbe() {
+void _wrap_newtRedrawHelpLine_newt_b66f7c1329564d0a() {
   newtRedrawHelpLine();
   
 }
 
 
-void _wrap_newtPopHelpLine_newt_dfa5496400248dbe() {
+void _wrap_newtPopHelpLine_newt_b66f7c1329564d0a() {
   newtPopHelpLine();
   
 }
 
 
-void _wrap_newtDrawRootText_newt_dfa5496400248dbe(intgo _swig_go_0, intgo _swig_go_1, _gostring_ _swig_go_2) {
+void _wrap_newtDrawRootText_newt_b66f7c1329564d0a(intgo _swig_go_0, intgo _swig_go_1, _gostring_ _swig_go_2) {
   int arg1 ;
   int arg2 ;
   char *arg3 = (char *) 0 ;
@@ -2530,25 +2530,25 @@ void _wrap_newtDrawRootText_newt_dfa5496400248dbe(intgo _swig_go_0, intgo _swig_
 }
 
 
-void _wrap_newtBell_newt_dfa5496400248dbe() {
+void _wrap_newtBell_newt_b66f7c1329564d0a() {
   newtBell();
   
 }
 
 
-void _wrap_newtCursorOff_newt_dfa5496400248dbe() {
+void _wrap_newtCursorOff_newt_b66f7c1329564d0a() {
   newtCursorOff();
   
 }
 
 
-void _wrap_newtCursorOn_newt_dfa5496400248dbe() {
+void _wrap_newtCursorOn_newt_b66f7c1329564d0a() {
   newtCursorOn();
   
 }
 
 
-struct newtComponent_struct *_wrap_newtCompactButton_newt_dfa5496400248dbe(intgo _swig_go_0, intgo _swig_go_1, _gostring_ _swig_go_2) {
+struct newtComponent_struct *_wrap_newtCompactButton_newt_b66f7c1329564d0a(intgo _swig_go_0, intgo _swig_go_1, _gostring_ _swig_go_2) {
   int arg1 ;
   int arg2 ;
   char *arg3 = (char *) 0 ;
@@ -2570,7 +2570,7 @@ struct newtComponent_struct *_wrap_newtCompactButton_newt_dfa5496400248dbe(intgo
 }
 
 
-struct newtComponent_struct *_wrap_newtButton_newt_dfa5496400248dbe(intgo _swig_go_0, intgo _swig_go_1, _gostring_ _swig_go_2) {
+struct newtComponent_struct *_wrap_newtButton_newt_b66f7c1329564d0a(intgo _swig_go_0, intgo _swig_go_1, _gostring_ _swig_go_2) {
   int arg1 ;
   int arg2 ;
   char *arg3 = (char *) 0 ;
@@ -2592,7 +2592,7 @@ struct newtComponent_struct *_wrap_newtButton_newt_dfa5496400248dbe(intgo _swig_
 }
 
 
-struct newtComponent_struct *_wrap_newtCheckbox_newt_dfa5496400248dbe(intgo _swig_go_0, intgo _swig_go_1, _gostring_ _swig_go_2, char _swig_go_3, _gostring_ _swig_go_4, _gostring_ _swig_go_5) {
+struct newtComponent_struct *_wrap_newtCheckbox_newt_b66f7c1329564d0a(intgo _swig_go_0, intgo _swig_go_1, _gostring_ _swig_go_2, char _swig_go_3, _gostring_ _swig_go_4, _gostring_ _swig_go_5) {
   int arg1 ;
   int arg2 ;
   char *arg3 = (char *) 0 ;
@@ -2630,7 +2630,7 @@ struct newtComponent_struct *_wrap_newtCheckbox_newt_dfa5496400248dbe(intgo _swi
 }
 
 
-char _wrap_newtCheckboxGetValue_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0) {
+char _wrap_newtCheckboxGetValue_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0) {
   newtComponent arg1 = (newtComponent) 0 ;
   char result;
   char _swig_go_result;
@@ -2643,7 +2643,7 @@ char _wrap_newtCheckboxGetValue_newt_dfa5496400248dbe(struct newtComponent_struc
 }
 
 
-void _wrap_newtCheckboxSetValue_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, char _swig_go_1) {
+void _wrap_newtCheckboxSetValue_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, char _swig_go_1) {
   newtComponent arg1 = (newtComponent) 0 ;
   char arg2 ;
   
@@ -2655,7 +2655,7 @@ void _wrap_newtCheckboxSetValue_newt_dfa5496400248dbe(struct newtComponent_struc
 }
 
 
-void _wrap_newtCheckboxSetFlags_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+void _wrap_newtCheckboxSetFlags_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   newtComponent arg1 = (newtComponent) 0 ;
   int arg2 ;
   enum newtFlagsSense arg3 ;
@@ -2669,7 +2669,7 @@ void _wrap_newtCheckboxSetFlags_newt_dfa5496400248dbe(struct newtComponent_struc
 }
 
 
-struct newtComponent_struct *_wrap_newtRadiobutton_newt_dfa5496400248dbe(intgo _swig_go_0, intgo _swig_go_1, _gostring_ _swig_go_2, intgo _swig_go_3, struct newtComponent_struct *_swig_go_4) {
+struct newtComponent_struct *_wrap_newtRadiobutton_newt_b66f7c1329564d0a(intgo _swig_go_0, intgo _swig_go_1, _gostring_ _swig_go_2, intgo _swig_go_3, struct newtComponent_struct *_swig_go_4) {
   int arg1 ;
   int arg2 ;
   char *arg3 = (char *) 0 ;
@@ -2695,7 +2695,7 @@ struct newtComponent_struct *_wrap_newtRadiobutton_newt_dfa5496400248dbe(intgo _
 }
 
 
-struct newtComponent_struct *_wrap_newtRadioGetCurrent_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0) {
+struct newtComponent_struct *_wrap_newtRadioGetCurrent_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0) {
   newtComponent arg1 = (newtComponent) 0 ;
   newtComponent result;
   struct newtComponent_struct *_swig_go_result;
@@ -2708,7 +2708,7 @@ struct newtComponent_struct *_wrap_newtRadioGetCurrent_newt_dfa5496400248dbe(str
 }
 
 
-void _wrap_newtRadioSetCurrent_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0) {
+void _wrap_newtRadioSetCurrent_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0) {
   newtComponent arg1 = (newtComponent) 0 ;
   
   arg1 = *(newtComponent *)&_swig_go_0; 
@@ -2718,7 +2718,7 @@ void _wrap_newtRadioSetCurrent_newt_dfa5496400248dbe(struct newtComponent_struct
 }
 
 
-void _wrap_newtGetScreenSize_newt_dfa5496400248dbe(intgo *_swig_go_0, intgo *_swig_go_1) {
+void _wrap_newtGetScreenSize_newt_b66f7c1329564d0a(intgo *_swig_go_0, intgo *_swig_go_1) {
   int *arg1 = (int *) 0 ;
   int *arg2 = (int *) 0 ;
   
@@ -2730,7 +2730,7 @@ void _wrap_newtGetScreenSize_newt_dfa5496400248dbe(intgo *_swig_go_0, intgo *_sw
 }
 
 
-struct newtComponent_struct *_wrap_newtLabel_newt_dfa5496400248dbe(intgo _swig_go_0, intgo _swig_go_1, _gostring_ _swig_go_2) {
+struct newtComponent_struct *_wrap_newtLabel_newt_b66f7c1329564d0a(intgo _swig_go_0, intgo _swig_go_1, _gostring_ _swig_go_2) {
   int arg1 ;
   int arg2 ;
   char *arg3 = (char *) 0 ;
@@ -2752,7 +2752,7 @@ struct newtComponent_struct *_wrap_newtLabel_newt_dfa5496400248dbe(intgo _swig_g
 }
 
 
-void _wrap_newtLabelSetText_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_newtLabelSetText_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, _gostring_ _swig_go_1) {
   newtComponent arg1 = (newtComponent) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -2769,7 +2769,7 @@ void _wrap_newtLabelSetText_newt_dfa5496400248dbe(struct newtComponent_struct *_
 }
 
 
-void _wrap_newtLabelSetColors_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, intgo _swig_go_1) {
+void _wrap_newtLabelSetColors_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, intgo _swig_go_1) {
   newtComponent arg1 = (newtComponent) 0 ;
   int arg2 ;
   
@@ -2781,7 +2781,7 @@ void _wrap_newtLabelSetColors_newt_dfa5496400248dbe(struct newtComponent_struct 
 }
 
 
-struct newtComponent_struct *_wrap_newtVerticalScrollbar_newt_dfa5496400248dbe(intgo _swig_go_0, intgo _swig_go_1, intgo _swig_go_2, intgo _swig_go_3, intgo _swig_go_4) {
+struct newtComponent_struct *_wrap_newtVerticalScrollbar_newt_b66f7c1329564d0a(intgo _swig_go_0, intgo _swig_go_1, intgo _swig_go_2, intgo _swig_go_3, intgo _swig_go_4) {
   int arg1 ;
   int arg2 ;
   int arg3 ;
@@ -2802,7 +2802,7 @@ struct newtComponent_struct *_wrap_newtVerticalScrollbar_newt_dfa5496400248dbe(i
 }
 
 
-void _wrap_newtScrollbarSet_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+void _wrap_newtScrollbarSet_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   newtComponent arg1 = (newtComponent) 0 ;
   int arg2 ;
   int arg3 ;
@@ -2816,7 +2816,7 @@ void _wrap_newtScrollbarSet_newt_dfa5496400248dbe(struct newtComponent_struct *_
 }
 
 
-void _wrap_newtScrollbarSetColors_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+void _wrap_newtScrollbarSetColors_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   newtComponent arg1 = (newtComponent) 0 ;
   int arg2 ;
   int arg3 ;
@@ -2830,7 +2830,7 @@ void _wrap_newtScrollbarSetColors_newt_dfa5496400248dbe(struct newtComponent_str
 }
 
 
-struct newtComponent_struct *_wrap_newtListbox_newt_dfa5496400248dbe(intgo _swig_go_0, intgo _swig_go_1, intgo _swig_go_2, intgo _swig_go_3) {
+struct newtComponent_struct *_wrap_newtListbox_newt_b66f7c1329564d0a(intgo _swig_go_0, intgo _swig_go_1, intgo _swig_go_2, intgo _swig_go_3) {
   int arg1 ;
   int arg2 ;
   int arg3 ;
@@ -2849,7 +2849,7 @@ struct newtComponent_struct *_wrap_newtListbox_newt_dfa5496400248dbe(intgo _swig
 }
 
 
-void *_wrap_newtListboxGetCurrent_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0) {
+void *_wrap_newtListboxGetCurrent_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0) {
   newtComponent arg1 = (newtComponent) 0 ;
   void *result = 0 ;
   void *_swig_go_result;
@@ -2862,7 +2862,7 @@ void *_wrap_newtListboxGetCurrent_newt_dfa5496400248dbe(struct newtComponent_str
 }
 
 
-void _wrap_newtListboxSetCurrent_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, intgo _swig_go_1) {
+void _wrap_newtListboxSetCurrent_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, intgo _swig_go_1) {
   newtComponent arg1 = (newtComponent) 0 ;
   int arg2 ;
   
@@ -2874,7 +2874,7 @@ void _wrap_newtListboxSetCurrent_newt_dfa5496400248dbe(struct newtComponent_stru
 }
 
 
-void _wrap_newtListboxSetCurrentByKey_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, void *_swig_go_1) {
+void _wrap_newtListboxSetCurrentByKey_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, void *_swig_go_1) {
   newtComponent arg1 = (newtComponent) 0 ;
   void *arg2 = (void *) 0 ;
   
@@ -2886,7 +2886,7 @@ void _wrap_newtListboxSetCurrentByKey_newt_dfa5496400248dbe(struct newtComponent
 }
 
 
-void _wrap_newtListboxSetEntry_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, intgo _swig_go_1, _gostring_ _swig_go_2) {
+void _wrap_newtListboxSetEntry_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, intgo _swig_go_1, _gostring_ _swig_go_2) {
   newtComponent arg1 = (newtComponent) 0 ;
   int arg2 ;
   char *arg3 = (char *) 0 ;
@@ -2905,7 +2905,7 @@ void _wrap_newtListboxSetEntry_newt_dfa5496400248dbe(struct newtComponent_struct
 }
 
 
-void _wrap_newtListboxSetWidth_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, intgo _swig_go_1) {
+void _wrap_newtListboxSetWidth_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, intgo _swig_go_1) {
   newtComponent arg1 = (newtComponent) 0 ;
   int arg2 ;
   
@@ -2917,7 +2917,7 @@ void _wrap_newtListboxSetWidth_newt_dfa5496400248dbe(struct newtComponent_struct
 }
 
 
-void _wrap_newtListboxSetData_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, intgo _swig_go_1, void *_swig_go_2) {
+void _wrap_newtListboxSetData_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, intgo _swig_go_1, void *_swig_go_2) {
   newtComponent arg1 = (newtComponent) 0 ;
   int arg2 ;
   void *arg3 = (void *) 0 ;
@@ -2931,7 +2931,7 @@ void _wrap_newtListboxSetData_newt_dfa5496400248dbe(struct newtComponent_struct 
 }
 
 
-intgo _wrap_newtListboxAppendEntry_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, _gostring_ _swig_go_1, void *_swig_go_2) {
+intgo _wrap_newtListboxAppendEntry_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, _gostring_ _swig_go_1, void *_swig_go_2) {
   newtComponent arg1 = (newtComponent) 0 ;
   char *arg2 = (char *) 0 ;
   void *arg3 = (void *) 0 ;
@@ -2953,7 +2953,7 @@ intgo _wrap_newtListboxAppendEntry_newt_dfa5496400248dbe(struct newtComponent_st
 }
 
 
-intgo _wrap_newtListboxInsertEntry_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, _gostring_ _swig_go_1, void *_swig_go_2, void *_swig_go_3) {
+intgo _wrap_newtListboxInsertEntry_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, _gostring_ _swig_go_1, void *_swig_go_2, void *_swig_go_3) {
   newtComponent arg1 = (newtComponent) 0 ;
   char *arg2 = (char *) 0 ;
   void *arg3 = (void *) 0 ;
@@ -2977,7 +2977,7 @@ intgo _wrap_newtListboxInsertEntry_newt_dfa5496400248dbe(struct newtComponent_st
 }
 
 
-intgo _wrap_newtListboxDeleteEntry_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, void *_swig_go_1) {
+intgo _wrap_newtListboxDeleteEntry_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, void *_swig_go_1) {
   newtComponent arg1 = (newtComponent) 0 ;
   void *arg2 = (void *) 0 ;
   int result;
@@ -2992,7 +2992,7 @@ intgo _wrap_newtListboxDeleteEntry_newt_dfa5496400248dbe(struct newtComponent_st
 }
 
 
-void _wrap_newtListboxClear_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0) {
+void _wrap_newtListboxClear_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0) {
   newtComponent arg1 = (newtComponent) 0 ;
   
   arg1 = *(newtComponent *)&_swig_go_0; 
@@ -3002,7 +3002,7 @@ void _wrap_newtListboxClear_newt_dfa5496400248dbe(struct newtComponent_struct *_
 }
 
 
-void _wrap_newtListboxGetEntry_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, intgo _swig_go_1, _gostring_* _swig_go_2, void **_swig_go_3) {
+void _wrap_newtListboxGetEntry_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, intgo _swig_go_1, _gostring_* _swig_go_2, void **_swig_go_3) {
   newtComponent arg1 = (newtComponent) 0 ;
   int arg2 ;
   char **arg3 = (char **) 0 ;
@@ -3018,7 +3018,7 @@ void _wrap_newtListboxGetEntry_newt_dfa5496400248dbe(struct newtComponent_struct
 }
 
 
-void **_wrap_newtListboxGetSelection_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, intgo *_swig_go_1) {
+void **_wrap_newtListboxGetSelection_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, intgo *_swig_go_1) {
   newtComponent arg1 = (newtComponent) 0 ;
   int *arg2 = (int *) 0 ;
   void **result = 0 ;
@@ -3033,7 +3033,7 @@ void **_wrap_newtListboxGetSelection_newt_dfa5496400248dbe(struct newtComponent_
 }
 
 
-void _wrap_newtListboxClearSelection_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0) {
+void _wrap_newtListboxClearSelection_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0) {
   newtComponent arg1 = (newtComponent) 0 ;
   
   arg1 = *(newtComponent *)&_swig_go_0; 
@@ -3043,7 +3043,7 @@ void _wrap_newtListboxClearSelection_newt_dfa5496400248dbe(struct newtComponent_
 }
 
 
-void _wrap_newtListboxSelectItem_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, void *_swig_go_1, intgo _swig_go_2) {
+void _wrap_newtListboxSelectItem_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, void *_swig_go_1, intgo _swig_go_2) {
   newtComponent arg1 = (newtComponent) 0 ;
   void *arg2 = (void *) 0 ;
   enum newtFlagsSense arg3 ;
@@ -3057,7 +3057,7 @@ void _wrap_newtListboxSelectItem_newt_dfa5496400248dbe(struct newtComponent_stru
 }
 
 
-intgo _wrap_newtListboxItemCount_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0) {
+intgo _wrap_newtListboxItemCount_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0) {
   newtComponent arg1 = (newtComponent) 0 ;
   int result;
   intgo _swig_go_result;
@@ -3070,7 +3070,7 @@ intgo _wrap_newtListboxItemCount_newt_dfa5496400248dbe(struct newtComponent_stru
 }
 
 
-struct newtComponent_struct *_wrap_newtCheckboxTree_newt_dfa5496400248dbe(intgo _swig_go_0, intgo _swig_go_1, intgo _swig_go_2, intgo _swig_go_3) {
+struct newtComponent_struct *_wrap_newtCheckboxTree_newt_b66f7c1329564d0a(intgo _swig_go_0, intgo _swig_go_1, intgo _swig_go_2, intgo _swig_go_3) {
   int arg1 ;
   int arg2 ;
   int arg3 ;
@@ -3089,7 +3089,7 @@ struct newtComponent_struct *_wrap_newtCheckboxTree_newt_dfa5496400248dbe(intgo 
 }
 
 
-struct newtComponent_struct *_wrap_newtCheckboxTreeMulti_newt_dfa5496400248dbe(intgo _swig_go_0, intgo _swig_go_1, intgo _swig_go_2, _gostring_ _swig_go_3, intgo _swig_go_4) {
+struct newtComponent_struct *_wrap_newtCheckboxTreeMulti_newt_b66f7c1329564d0a(intgo _swig_go_0, intgo _swig_go_1, intgo _swig_go_2, _gostring_ _swig_go_3, intgo _swig_go_4) {
   int arg1 ;
   int arg2 ;
   int arg3 ;
@@ -3115,7 +3115,7 @@ struct newtComponent_struct *_wrap_newtCheckboxTreeMulti_newt_dfa5496400248dbe(i
 }
 
 
-void **_wrap_newtCheckboxTreeGetSelection_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, intgo *_swig_go_1) {
+void **_wrap_newtCheckboxTreeGetSelection_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, intgo *_swig_go_1) {
   newtComponent arg1 = (newtComponent) 0 ;
   int *arg2 = (int *) 0 ;
   void **result = 0 ;
@@ -3130,7 +3130,7 @@ void **_wrap_newtCheckboxTreeGetSelection_newt_dfa5496400248dbe(struct newtCompo
 }
 
 
-void *_wrap_newtCheckboxTreeGetCurrent_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0) {
+void *_wrap_newtCheckboxTreeGetCurrent_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0) {
   newtComponent arg1 = (newtComponent) 0 ;
   void *result = 0 ;
   void *_swig_go_result;
@@ -3143,7 +3143,7 @@ void *_wrap_newtCheckboxTreeGetCurrent_newt_dfa5496400248dbe(struct newtComponen
 }
 
 
-void _wrap_newtCheckboxTreeSetCurrent_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, void *_swig_go_1) {
+void _wrap_newtCheckboxTreeSetCurrent_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, void *_swig_go_1) {
   newtComponent arg1 = (newtComponent) 0 ;
   void *arg2 = (void *) 0 ;
   
@@ -3155,7 +3155,7 @@ void _wrap_newtCheckboxTreeSetCurrent_newt_dfa5496400248dbe(struct newtComponent
 }
 
 
-void **_wrap_newtCheckboxTreeGetMultiSelection_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, intgo *_swig_go_1, char _swig_go_2) {
+void **_wrap_newtCheckboxTreeGetMultiSelection_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, intgo *_swig_go_1, char _swig_go_2) {
   newtComponent arg1 = (newtComponent) 0 ;
   int *arg2 = (int *) 0 ;
   char arg3 ;
@@ -3172,7 +3172,7 @@ void **_wrap_newtCheckboxTreeGetMultiSelection_newt_dfa5496400248dbe(struct newt
 }
 
 
-intgo _wrap_newtCheckboxTreeAddItem_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, _gostring_ _swig_go_1, void *_swig_go_2, intgo _swig_go_3, intgo _swig_go_4) {
+intgo _wrap_newtCheckboxTreeAddItem_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, _gostring_ _swig_go_1, void *_swig_go_2, intgo _swig_go_3, intgo _swig_go_4) {
   newtComponent arg1 = (newtComponent) 0 ;
   char *arg2 = (char *) 0 ;
   void *arg3 = (void *) 0 ;
@@ -3199,7 +3199,7 @@ intgo _wrap_newtCheckboxTreeAddItem_newt_dfa5496400248dbe(struct newtComponent_s
 }
 
 
-intgo _wrap_newtCheckboxTreeAddArray_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, _gostring_ _swig_go_1, void *_swig_go_2, intgo _swig_go_3, intgo *_swig_go_4) {
+intgo _wrap_newtCheckboxTreeAddArray_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, _gostring_ _swig_go_1, void *_swig_go_2, intgo _swig_go_3, intgo *_swig_go_4) {
   newtComponent arg1 = (newtComponent) 0 ;
   char *arg2 = (char *) 0 ;
   void *arg3 = (void *) 0 ;
@@ -3225,7 +3225,7 @@ intgo _wrap_newtCheckboxTreeAddArray_newt_dfa5496400248dbe(struct newtComponent_
 }
 
 
-intgo *_wrap_newtCheckboxTreeFindItem_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, void *_swig_go_1) {
+intgo *_wrap_newtCheckboxTreeFindItem_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, void *_swig_go_1) {
   newtComponent arg1 = (newtComponent) 0 ;
   void *arg2 = (void *) 0 ;
   int *result = 0 ;
@@ -3240,7 +3240,7 @@ intgo *_wrap_newtCheckboxTreeFindItem_newt_dfa5496400248dbe(struct newtComponent
 }
 
 
-void _wrap_newtCheckboxTreeSetEntry_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, void *_swig_go_1, _gostring_ _swig_go_2) {
+void _wrap_newtCheckboxTreeSetEntry_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, void *_swig_go_1, _gostring_ _swig_go_2) {
   newtComponent arg1 = (newtComponent) 0 ;
   void *arg2 = (void *) 0 ;
   char *arg3 = (char *) 0 ;
@@ -3259,7 +3259,7 @@ void _wrap_newtCheckboxTreeSetEntry_newt_dfa5496400248dbe(struct newtComponent_s
 }
 
 
-void _wrap_newtCheckboxTreeSetWidth_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, intgo _swig_go_1) {
+void _wrap_newtCheckboxTreeSetWidth_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, intgo _swig_go_1) {
   newtComponent arg1 = (newtComponent) 0 ;
   int arg2 ;
   
@@ -3271,7 +3271,7 @@ void _wrap_newtCheckboxTreeSetWidth_newt_dfa5496400248dbe(struct newtComponent_s
 }
 
 
-char _wrap_newtCheckboxTreeGetEntryValue_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, void *_swig_go_1) {
+char _wrap_newtCheckboxTreeGetEntryValue_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, void *_swig_go_1) {
   newtComponent arg1 = (newtComponent) 0 ;
   void *arg2 = (void *) 0 ;
   char result;
@@ -3286,7 +3286,7 @@ char _wrap_newtCheckboxTreeGetEntryValue_newt_dfa5496400248dbe(struct newtCompon
 }
 
 
-void _wrap_newtCheckboxTreeSetEntryValue_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, void *_swig_go_1, char _swig_go_2) {
+void _wrap_newtCheckboxTreeSetEntryValue_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, void *_swig_go_1, char _swig_go_2) {
   newtComponent arg1 = (newtComponent) 0 ;
   void *arg2 = (void *) 0 ;
   char arg3 ;
@@ -3300,7 +3300,7 @@ void _wrap_newtCheckboxTreeSetEntryValue_newt_dfa5496400248dbe(struct newtCompon
 }
 
 
-struct newtComponent_struct *_wrap_newtTextboxReflowed_newt_dfa5496400248dbe(intgo _swig_go_0, intgo _swig_go_1, _gostring_ _swig_go_2, intgo _swig_go_3, intgo _swig_go_4, intgo _swig_go_5, intgo _swig_go_6) {
+struct newtComponent_struct *_wrap_newtTextboxReflowed_newt_b66f7c1329564d0a(intgo _swig_go_0, intgo _swig_go_1, _gostring_ _swig_go_2, intgo _swig_go_3, intgo _swig_go_4, intgo _swig_go_5, intgo _swig_go_6) {
   int arg1 ;
   int arg2 ;
   char *arg3 = (char *) 0 ;
@@ -3330,7 +3330,7 @@ struct newtComponent_struct *_wrap_newtTextboxReflowed_newt_dfa5496400248dbe(int
 }
 
 
-struct newtComponent_struct *_wrap_newtTextbox_newt_dfa5496400248dbe(intgo _swig_go_0, intgo _swig_go_1, intgo _swig_go_2, intgo _swig_go_3, intgo _swig_go_4) {
+struct newtComponent_struct *_wrap_newtTextbox_newt_b66f7c1329564d0a(intgo _swig_go_0, intgo _swig_go_1, intgo _swig_go_2, intgo _swig_go_3, intgo _swig_go_4) {
   int arg1 ;
   int arg2 ;
   int arg3 ;
@@ -3351,7 +3351,7 @@ struct newtComponent_struct *_wrap_newtTextbox_newt_dfa5496400248dbe(intgo _swig
 }
 
 
-void _wrap_newtTextboxSetText_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_newtTextboxSetText_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, _gostring_ _swig_go_1) {
   newtComponent arg1 = (newtComponent) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -3368,7 +3368,7 @@ void _wrap_newtTextboxSetText_newt_dfa5496400248dbe(struct newtComponent_struct 
 }
 
 
-void _wrap_newtTextboxSetHeight_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, intgo _swig_go_1) {
+void _wrap_newtTextboxSetHeight_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, intgo _swig_go_1) {
   newtComponent arg1 = (newtComponent) 0 ;
   int arg2 ;
   
@@ -3380,7 +3380,7 @@ void _wrap_newtTextboxSetHeight_newt_dfa5496400248dbe(struct newtComponent_struc
 }
 
 
-intgo _wrap_newtTextboxGetNumLines_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0) {
+intgo _wrap_newtTextboxGetNumLines_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0) {
   newtComponent arg1 = (newtComponent) 0 ;
   int result;
   intgo _swig_go_result;
@@ -3393,7 +3393,7 @@ intgo _wrap_newtTextboxGetNumLines_newt_dfa5496400248dbe(struct newtComponent_st
 }
 
 
-void _wrap_newtTextboxSetColors_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+void _wrap_newtTextboxSetColors_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   newtComponent arg1 = (newtComponent) 0 ;
   int arg2 ;
   int arg3 ;
@@ -3407,7 +3407,7 @@ void _wrap_newtTextboxSetColors_newt_dfa5496400248dbe(struct newtComponent_struc
 }
 
 
-_gostring_ _wrap_newtReflowText_newt_dfa5496400248dbe(_gostring_ _swig_go_0, intgo _swig_go_1, intgo _swig_go_2, intgo _swig_go_3, intgo *_swig_go_4, intgo *_swig_go_5) {
+_gostring_ _wrap_newtReflowText_newt_b66f7c1329564d0a(_gostring_ _swig_go_0, intgo _swig_go_1, intgo _swig_go_2, intgo _swig_go_3, intgo *_swig_go_4, intgo *_swig_go_5) {
   char *arg1 = (char *) 0 ;
   int arg2 ;
   int arg3 ;
@@ -3435,7 +3435,7 @@ _gostring_ _wrap_newtReflowText_newt_dfa5496400248dbe(_gostring_ _swig_go_0, int
 }
 
 
-intgo _wrap_NEWT_EXIT_HOTKEY_newtExitStruct_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_EXIT_HOTKEY_newtExitStruct_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -3447,7 +3447,7 @@ intgo _wrap_NEWT_EXIT_HOTKEY_newtExitStruct_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_EXIT_COMPONENT_newtExitStruct_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_EXIT_COMPONENT_newtExitStruct_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -3459,7 +3459,7 @@ intgo _wrap_NEWT_EXIT_COMPONENT_newtExitStruct_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_EXIT_FDREADY_newtExitStruct_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_EXIT_FDREADY_newtExitStruct_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -3471,7 +3471,7 @@ intgo _wrap_NEWT_EXIT_FDREADY_newtExitStruct_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_EXIT_TIMER_newtExitStruct_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_EXIT_TIMER_newtExitStruct_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -3483,7 +3483,7 @@ intgo _wrap_NEWT_EXIT_TIMER_newtExitStruct_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_EXIT_ERROR_newtExitStruct_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_EXIT_ERROR_newtExitStruct_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -3495,7 +3495,7 @@ intgo _wrap_NEWT_EXIT_ERROR_newtExitStruct_newt_dfa5496400248dbe() {
 }
 
 
-void _wrap_newtExitStruct_reason_set_newt_dfa5496400248dbe(struct newtExitStruct *_swig_go_0, intgo _swig_go_1) {
+void _wrap_newtExitStruct_reason_set_newt_b66f7c1329564d0a(struct newtExitStruct *_swig_go_0, intgo _swig_go_1) {
   struct newtExitStruct *arg1 = (struct newtExitStruct *) 0 ;
   int arg2 ;
   
@@ -3507,7 +3507,7 @@ void _wrap_newtExitStruct_reason_set_newt_dfa5496400248dbe(struct newtExitStruct
 }
 
 
-intgo _wrap_newtExitStruct_reason_get_newt_dfa5496400248dbe(struct newtExitStruct *_swig_go_0) {
+intgo _wrap_newtExitStruct_reason_get_newt_b66f7c1329564d0a(struct newtExitStruct *_swig_go_0) {
   struct newtExitStruct *arg1 = (struct newtExitStruct *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -3520,7 +3520,7 @@ intgo _wrap_newtExitStruct_reason_get_newt_dfa5496400248dbe(struct newtExitStruc
 }
 
 
-newtExitStruct_u *_wrap_newtExitStruct_u_get_newt_dfa5496400248dbe(struct newtExitStruct *_swig_go_0) {
+newtExitStruct_u *_wrap_newtExitStruct_u_get_newt_b66f7c1329564d0a(struct newtExitStruct *_swig_go_0) {
   struct newtExitStruct *arg1 = (struct newtExitStruct *) 0 ;
   newtExitStruct_u *result = 0 ;
   newtExitStruct_u *_swig_go_result;
@@ -3533,7 +3533,7 @@ newtExitStruct_u *_wrap_newtExitStruct_u_get_newt_dfa5496400248dbe(struct newtEx
 }
 
 
-struct newtExitStruct *_wrap_new_newtExitStruct_newt_dfa5496400248dbe() {
+struct newtExitStruct *_wrap_new_newtExitStruct_newt_b66f7c1329564d0a() {
   struct newtExitStruct *result = 0 ;
   struct newtExitStruct *_swig_go_result;
   
@@ -3544,7 +3544,7 @@ struct newtExitStruct *_wrap_new_newtExitStruct_newt_dfa5496400248dbe() {
 }
 
 
-void _wrap_delete_newtExitStruct_newt_dfa5496400248dbe(struct newtExitStruct *_swig_go_0) {
+void _wrap_delete_newtExitStruct_newt_b66f7c1329564d0a(struct newtExitStruct *_swig_go_0) {
   struct newtExitStruct *arg1 = (struct newtExitStruct *) 0 ;
   
   arg1 = *(struct newtExitStruct **)&_swig_go_0; 
@@ -3554,7 +3554,7 @@ void _wrap_delete_newtExitStruct_newt_dfa5496400248dbe(struct newtExitStruct *_s
 }
 
 
-void _wrap_newtExitStruct_u_watch_set_newt_dfa5496400248dbe(newtExitStruct_u *_swig_go_0, intgo _swig_go_1) {
+void _wrap_newtExitStruct_u_watch_set_newt_b66f7c1329564d0a(newtExitStruct_u *_swig_go_0, intgo _swig_go_1) {
   newtExitStruct_u *arg1 = (newtExitStruct_u *) 0 ;
   int arg2 ;
   
@@ -3566,7 +3566,7 @@ void _wrap_newtExitStruct_u_watch_set_newt_dfa5496400248dbe(newtExitStruct_u *_s
 }
 
 
-intgo _wrap_newtExitStruct_u_watch_get_newt_dfa5496400248dbe(newtExitStruct_u *_swig_go_0) {
+intgo _wrap_newtExitStruct_u_watch_get_newt_b66f7c1329564d0a(newtExitStruct_u *_swig_go_0) {
   newtExitStruct_u *arg1 = (newtExitStruct_u *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -3579,7 +3579,7 @@ intgo _wrap_newtExitStruct_u_watch_get_newt_dfa5496400248dbe(newtExitStruct_u *_
 }
 
 
-void _wrap_newtExitStruct_u_key_set_newt_dfa5496400248dbe(newtExitStruct_u *_swig_go_0, intgo _swig_go_1) {
+void _wrap_newtExitStruct_u_key_set_newt_b66f7c1329564d0a(newtExitStruct_u *_swig_go_0, intgo _swig_go_1) {
   newtExitStruct_u *arg1 = (newtExitStruct_u *) 0 ;
   int arg2 ;
   
@@ -3591,7 +3591,7 @@ void _wrap_newtExitStruct_u_key_set_newt_dfa5496400248dbe(newtExitStruct_u *_swi
 }
 
 
-intgo _wrap_newtExitStruct_u_key_get_newt_dfa5496400248dbe(newtExitStruct_u *_swig_go_0) {
+intgo _wrap_newtExitStruct_u_key_get_newt_b66f7c1329564d0a(newtExitStruct_u *_swig_go_0) {
   newtExitStruct_u *arg1 = (newtExitStruct_u *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -3604,7 +3604,7 @@ intgo _wrap_newtExitStruct_u_key_get_newt_dfa5496400248dbe(newtExitStruct_u *_sw
 }
 
 
-void _wrap_newtExitStruct_u_co_set_newt_dfa5496400248dbe(newtExitStruct_u *_swig_go_0, struct newtComponent_struct *_swig_go_1) {
+void _wrap_newtExitStruct_u_co_set_newt_b66f7c1329564d0a(newtExitStruct_u *_swig_go_0, struct newtComponent_struct *_swig_go_1) {
   newtExitStruct_u *arg1 = (newtExitStruct_u *) 0 ;
   newtComponent arg2 = (newtComponent) 0 ;
   
@@ -3616,7 +3616,7 @@ void _wrap_newtExitStruct_u_co_set_newt_dfa5496400248dbe(newtExitStruct_u *_swig
 }
 
 
-struct newtComponent_struct *_wrap_newtExitStruct_u_co_get_newt_dfa5496400248dbe(newtExitStruct_u *_swig_go_0) {
+struct newtComponent_struct *_wrap_newtExitStruct_u_co_get_newt_b66f7c1329564d0a(newtExitStruct_u *_swig_go_0) {
   newtExitStruct_u *arg1 = (newtExitStruct_u *) 0 ;
   newtComponent result;
   struct newtComponent_struct *_swig_go_result;
@@ -3629,7 +3629,7 @@ struct newtComponent_struct *_wrap_newtExitStruct_u_co_get_newt_dfa5496400248dbe
 }
 
 
-newtExitStruct_u *_wrap_new_newtExitStruct_u_newt_dfa5496400248dbe() {
+newtExitStruct_u *_wrap_new_newtExitStruct_u_newt_b66f7c1329564d0a() {
   newtExitStruct_u *result = 0 ;
   newtExitStruct_u *_swig_go_result;
   
@@ -3640,7 +3640,7 @@ newtExitStruct_u *_wrap_new_newtExitStruct_u_newt_dfa5496400248dbe() {
 }
 
 
-void _wrap_delete_newtExitStruct_u_newt_dfa5496400248dbe(newtExitStruct_u *_swig_go_0) {
+void _wrap_delete_newtExitStruct_u_newt_b66f7c1329564d0a(newtExitStruct_u *_swig_go_0) {
   newtExitStruct_u *arg1 = (newtExitStruct_u *) 0 ;
   
   arg1 = *(newtExitStruct_u **)&_swig_go_0; 
@@ -3650,7 +3650,7 @@ void _wrap_delete_newtExitStruct_u_newt_dfa5496400248dbe(newtExitStruct_u *_swig
 }
 
 
-struct newtComponent_struct *_wrap_newtForm_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, void *_swig_go_1, intgo _swig_go_2) {
+struct newtComponent_struct *_wrap_newtForm_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, void *_swig_go_1, intgo _swig_go_2) {
   newtComponent arg1 = (newtComponent) 0 ;
   void *arg2 = (void *) 0 ;
   int arg3 ;
@@ -3667,7 +3667,7 @@ struct newtComponent_struct *_wrap_newtForm_newt_dfa5496400248dbe(struct newtCom
 }
 
 
-void _wrap_newtFormSetTimer_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, intgo _swig_go_1) {
+void _wrap_newtFormSetTimer_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, intgo _swig_go_1) {
   newtComponent arg1 = (newtComponent) 0 ;
   int arg2 ;
   
@@ -3679,7 +3679,7 @@ void _wrap_newtFormSetTimer_newt_dfa5496400248dbe(struct newtComponent_struct *_
 }
 
 
-void _wrap_newtFormWatchFd_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+void _wrap_newtFormWatchFd_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   newtComponent arg1 = (newtComponent) 0 ;
   int arg2 ;
   int arg3 ;
@@ -3693,7 +3693,7 @@ void _wrap_newtFormWatchFd_newt_dfa5496400248dbe(struct newtComponent_struct *_s
 }
 
 
-void _wrap_newtFormSetSize_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0) {
+void _wrap_newtFormSetSize_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0) {
   newtComponent arg1 = (newtComponent) 0 ;
   
   arg1 = *(newtComponent *)&_swig_go_0; 
@@ -3703,7 +3703,7 @@ void _wrap_newtFormSetSize_newt_dfa5496400248dbe(struct newtComponent_struct *_s
 }
 
 
-struct newtComponent_struct *_wrap_newtFormGetCurrent_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0) {
+struct newtComponent_struct *_wrap_newtFormGetCurrent_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0) {
   newtComponent arg1 = (newtComponent) 0 ;
   newtComponent result;
   struct newtComponent_struct *_swig_go_result;
@@ -3716,7 +3716,7 @@ struct newtComponent_struct *_wrap_newtFormGetCurrent_newt_dfa5496400248dbe(stru
 }
 
 
-void _wrap_newtFormSetBackground_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, intgo _swig_go_1) {
+void _wrap_newtFormSetBackground_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, intgo _swig_go_1) {
   newtComponent arg1 = (newtComponent) 0 ;
   int arg2 ;
   
@@ -3728,7 +3728,7 @@ void _wrap_newtFormSetBackground_newt_dfa5496400248dbe(struct newtComponent_stru
 }
 
 
-void _wrap_newtFormSetCurrent_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, struct newtComponent_struct *_swig_go_1) {
+void _wrap_newtFormSetCurrent_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, struct newtComponent_struct *_swig_go_1) {
   newtComponent arg1 = (newtComponent) 0 ;
   newtComponent arg2 = (newtComponent) 0 ;
   
@@ -3740,7 +3740,7 @@ void _wrap_newtFormSetCurrent_newt_dfa5496400248dbe(struct newtComponent_struct 
 }
 
 
-void _wrap_newtFormAddComponent_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, struct newtComponent_struct *_swig_go_1) {
+void _wrap_newtFormAddComponent_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, struct newtComponent_struct *_swig_go_1) {
   newtComponent arg1 = (newtComponent) 0 ;
   newtComponent arg2 = (newtComponent) 0 ;
   
@@ -3752,7 +3752,7 @@ void _wrap_newtFormAddComponent_newt_dfa5496400248dbe(struct newtComponent_struc
 }
 
 
-void _wrap_newtFormAddComponents_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0) {
+void _wrap_newtFormAddComponents_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0) {
   newtComponent arg1 = (newtComponent) 0 ;
   void *arg2 = 0 ;
   
@@ -3763,7 +3763,7 @@ void _wrap_newtFormAddComponents_newt_dfa5496400248dbe(struct newtComponent_stru
 }
 
 
-void _wrap_newtFormSetHeight_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, intgo _swig_go_1) {
+void _wrap_newtFormSetHeight_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, intgo _swig_go_1) {
   newtComponent arg1 = (newtComponent) 0 ;
   int arg2 ;
   
@@ -3775,7 +3775,7 @@ void _wrap_newtFormSetHeight_newt_dfa5496400248dbe(struct newtComponent_struct *
 }
 
 
-void _wrap_newtFormSetWidth_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, intgo _swig_go_1) {
+void _wrap_newtFormSetWidth_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, intgo _swig_go_1) {
   newtComponent arg1 = (newtComponent) 0 ;
   int arg2 ;
   
@@ -3787,7 +3787,7 @@ void _wrap_newtFormSetWidth_newt_dfa5496400248dbe(struct newtComponent_struct *_
 }
 
 
-struct newtComponent_struct *_wrap_newtRunForm_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0) {
+struct newtComponent_struct *_wrap_newtRunForm_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0) {
   newtComponent arg1 = (newtComponent) 0 ;
   newtComponent result;
   struct newtComponent_struct *_swig_go_result;
@@ -3800,7 +3800,7 @@ struct newtComponent_struct *_wrap_newtRunForm_newt_dfa5496400248dbe(struct newt
 }
 
 
-void _wrap_newtFormRun_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, struct newtExitStruct *_swig_go_1) {
+void _wrap_newtFormRun_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, struct newtExitStruct *_swig_go_1) {
   newtComponent arg1 = (newtComponent) 0 ;
   struct newtExitStruct *arg2 = (struct newtExitStruct *) 0 ;
   
@@ -3812,7 +3812,7 @@ void _wrap_newtFormRun_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_
 }
 
 
-void _wrap_newtDrawForm_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0) {
+void _wrap_newtDrawForm_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0) {
   newtComponent arg1 = (newtComponent) 0 ;
   
   arg1 = *(newtComponent *)&_swig_go_0; 
@@ -3822,7 +3822,7 @@ void _wrap_newtDrawForm_newt_dfa5496400248dbe(struct newtComponent_struct *_swig
 }
 
 
-void _wrap_newtFormAddHotKey_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, intgo _swig_go_1) {
+void _wrap_newtFormAddHotKey_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, intgo _swig_go_1) {
   newtComponent arg1 = (newtComponent) 0 ;
   int arg2 ;
   
@@ -3834,7 +3834,7 @@ void _wrap_newtFormAddHotKey_newt_dfa5496400248dbe(struct newtComponent_struct *
 }
 
 
-intgo _wrap_newtFormGetScrollPosition_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0) {
+intgo _wrap_newtFormGetScrollPosition_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0) {
   newtComponent arg1 = (newtComponent) 0 ;
   int result;
   intgo _swig_go_result;
@@ -3847,7 +3847,7 @@ intgo _wrap_newtFormGetScrollPosition_newt_dfa5496400248dbe(struct newtComponent
 }
 
 
-void _wrap_newtFormSetScrollPosition_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, intgo _swig_go_1) {
+void _wrap_newtFormSetScrollPosition_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, intgo _swig_go_1) {
   newtComponent arg1 = (newtComponent) 0 ;
   int arg2 ;
   
@@ -3859,7 +3859,7 @@ void _wrap_newtFormSetScrollPosition_newt_dfa5496400248dbe(struct newtComponent_
 }
 
 
-struct newtComponent_struct *_wrap_newtEntry_newt_dfa5496400248dbe(intgo _swig_go_0, intgo _swig_go_1, _gostring_ _swig_go_2, intgo _swig_go_3, _gostring_* _swig_go_4, intgo _swig_go_5) {
+struct newtComponent_struct *_wrap_newtEntry_newt_b66f7c1329564d0a(intgo _swig_go_0, intgo _swig_go_1, _gostring_ _swig_go_2, intgo _swig_go_3, _gostring_* _swig_go_4, intgo _swig_go_5) {
   int arg1 ;
   int arg2 ;
   char *arg3 = (char *) 0 ;
@@ -3887,7 +3887,7 @@ struct newtComponent_struct *_wrap_newtEntry_newt_dfa5496400248dbe(intgo _swig_g
 }
 
 
-void _wrap_newtEntrySet_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2) {
+void _wrap_newtEntrySet_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2) {
   newtComponent arg1 = (newtComponent) 0 ;
   char *arg2 = (char *) 0 ;
   int arg3 ;
@@ -3906,7 +3906,7 @@ void _wrap_newtEntrySet_newt_dfa5496400248dbe(struct newtComponent_struct *_swig
 }
 
 
-void _wrap_newtEntrySetFilter_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, void* _swig_go_1, void *_swig_go_2) {
+void _wrap_newtEntrySetFilter_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, void* _swig_go_1, void *_swig_go_2) {
   newtComponent arg1 = (newtComponent) 0 ;
   newtEntryFilter arg2 = (newtEntryFilter) 0 ;
   void *arg3 = (void *) 0 ;
@@ -3920,7 +3920,7 @@ void _wrap_newtEntrySetFilter_newt_dfa5496400248dbe(struct newtComponent_struct 
 }
 
 
-_gostring_ _wrap_newtEntryGetValue_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0) {
+_gostring_ _wrap_newtEntryGetValue_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0) {
   newtComponent arg1 = (newtComponent) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -3933,7 +3933,7 @@ _gostring_ _wrap_newtEntryGetValue_newt_dfa5496400248dbe(struct newtComponent_st
 }
 
 
-void _wrap_newtEntrySetFlags_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+void _wrap_newtEntrySetFlags_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   newtComponent arg1 = (newtComponent) 0 ;
   int arg2 ;
   enum newtFlagsSense arg3 ;
@@ -3947,7 +3947,7 @@ void _wrap_newtEntrySetFlags_newt_dfa5496400248dbe(struct newtComponent_struct *
 }
 
 
-void _wrap_newtEntrySetColors_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+void _wrap_newtEntrySetColors_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   newtComponent arg1 = (newtComponent) 0 ;
   int arg2 ;
   int arg3 ;
@@ -3961,7 +3961,7 @@ void _wrap_newtEntrySetColors_newt_dfa5496400248dbe(struct newtComponent_struct 
 }
 
 
-intgo _wrap_newtEntryGetCursorPosition_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0) {
+intgo _wrap_newtEntryGetCursorPosition_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0) {
   newtComponent arg1 = (newtComponent) 0 ;
   int result;
   intgo _swig_go_result;
@@ -3974,7 +3974,7 @@ intgo _wrap_newtEntryGetCursorPosition_newt_dfa5496400248dbe(struct newtComponen
 }
 
 
-void _wrap_newtEntrySetCursorPosition_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, intgo _swig_go_1) {
+void _wrap_newtEntrySetCursorPosition_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, intgo _swig_go_1) {
   newtComponent arg1 = (newtComponent) 0 ;
   int arg2 ;
   
@@ -3986,7 +3986,7 @@ void _wrap_newtEntrySetCursorPosition_newt_dfa5496400248dbe(struct newtComponent
 }
 
 
-struct newtComponent_struct *_wrap_newtScale_newt_dfa5496400248dbe(intgo _swig_go_0, intgo _swig_go_1, intgo _swig_go_2, long long _swig_go_3) {
+struct newtComponent_struct *_wrap_newtScale_newt_b66f7c1329564d0a(intgo _swig_go_0, intgo _swig_go_1, intgo _swig_go_2, long long _swig_go_3) {
   int arg1 ;
   int arg2 ;
   int arg3 ;
@@ -4005,7 +4005,7 @@ struct newtComponent_struct *_wrap_newtScale_newt_dfa5496400248dbe(intgo _swig_g
 }
 
 
-void _wrap_newtScaleSet_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, long long _swig_go_1) {
+void _wrap_newtScaleSet_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, long long _swig_go_1) {
   newtComponent arg1 = (newtComponent) 0 ;
   unsigned long long arg2 ;
   
@@ -4017,7 +4017,7 @@ void _wrap_newtScaleSet_newt_dfa5496400248dbe(struct newtComponent_struct *_swig
 }
 
 
-void _wrap_newtScaleSetColors_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+void _wrap_newtScaleSetColors_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   newtComponent arg1 = (newtComponent) 0 ;
   int arg2 ;
   int arg3 ;
@@ -4031,7 +4031,7 @@ void _wrap_newtScaleSetColors_newt_dfa5496400248dbe(struct newtComponent_struct 
 }
 
 
-void _wrap_newtComponentAddCallback_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, void* _swig_go_1, void *_swig_go_2) {
+void _wrap_newtComponentAddCallback_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, void* _swig_go_1, void *_swig_go_2) {
   newtComponent arg1 = (newtComponent) 0 ;
   newtCallback arg2 = (newtCallback) 0 ;
   void *arg3 = (void *) 0 ;
@@ -4045,7 +4045,7 @@ void _wrap_newtComponentAddCallback_newt_dfa5496400248dbe(struct newtComponent_s
 }
 
 
-void _wrap_newtComponentTakesFocus_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, intgo _swig_go_1) {
+void _wrap_newtComponentTakesFocus_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, intgo _swig_go_1) {
   newtComponent arg1 = (newtComponent) 0 ;
   int arg2 ;
   
@@ -4057,7 +4057,7 @@ void _wrap_newtComponentTakesFocus_newt_dfa5496400248dbe(struct newtComponent_st
 }
 
 
-void _wrap_newtComponentGetPosition_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, intgo *_swig_go_1, intgo *_swig_go_2) {
+void _wrap_newtComponentGetPosition_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, intgo *_swig_go_1, intgo *_swig_go_2) {
   newtComponent arg1 = (newtComponent) 0 ;
   int *arg2 = (int *) 0 ;
   int *arg3 = (int *) 0 ;
@@ -4071,7 +4071,7 @@ void _wrap_newtComponentGetPosition_newt_dfa5496400248dbe(struct newtComponent_s
 }
 
 
-void _wrap_newtComponentGetSize_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, intgo *_swig_go_1, intgo *_swig_go_2) {
+void _wrap_newtComponentGetSize_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, intgo *_swig_go_1, intgo *_swig_go_2) {
   newtComponent arg1 = (newtComponent) 0 ;
   int *arg2 = (int *) 0 ;
   int *arg3 = (int *) 0 ;
@@ -4085,7 +4085,7 @@ void _wrap_newtComponentGetSize_newt_dfa5496400248dbe(struct newtComponent_struc
 }
 
 
-void _wrap_newtComponentAddDestroyCallback_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, void* _swig_go_1, void *_swig_go_2) {
+void _wrap_newtComponentAddDestroyCallback_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, void* _swig_go_1, void *_swig_go_2) {
   newtComponent arg1 = (newtComponent) 0 ;
   newtCallback arg2 = (newtCallback) 0 ;
   void *arg3 = (void *) 0 ;
@@ -4099,7 +4099,7 @@ void _wrap_newtComponentAddDestroyCallback_newt_dfa5496400248dbe(struct newtComp
 }
 
 
-void _wrap_newtFormDestroy_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0) {
+void _wrap_newtFormDestroy_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0) {
   newtComponent arg1 = (newtComponent) 0 ;
   
   arg1 = *(newtComponent *)&_swig_go_0; 
@@ -4109,7 +4109,7 @@ void _wrap_newtFormDestroy_newt_dfa5496400248dbe(struct newtComponent_struct *_s
 }
 
 
-void _wrap_newtComponentDestroy_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0) {
+void _wrap_newtComponentDestroy_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0) {
   newtComponent arg1 = (newtComponent) 0 ;
   
   arg1 = *(newtComponent *)&_swig_go_0; 
@@ -4119,7 +4119,7 @@ void _wrap_newtComponentDestroy_newt_dfa5496400248dbe(struct newtComponent_struc
 }
 
 
-intgo _wrap_NEWT_KEY_UP_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_KEY_UP_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -4130,7 +4130,7 @@ intgo _wrap_NEWT_KEY_UP_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_KEY_DOWN_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_KEY_DOWN_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -4141,7 +4141,7 @@ intgo _wrap_NEWT_KEY_DOWN_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_KEY_LEFT_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_KEY_LEFT_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -4152,7 +4152,7 @@ intgo _wrap_NEWT_KEY_LEFT_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_KEY_RIGHT_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_KEY_RIGHT_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -4163,7 +4163,7 @@ intgo _wrap_NEWT_KEY_RIGHT_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_KEY_BKSPC_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_KEY_BKSPC_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -4174,7 +4174,7 @@ intgo _wrap_NEWT_KEY_BKSPC_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_KEY_DELETE_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_KEY_DELETE_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -4185,7 +4185,7 @@ intgo _wrap_NEWT_KEY_DELETE_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_KEY_HOME_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_KEY_HOME_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -4196,7 +4196,7 @@ intgo _wrap_NEWT_KEY_HOME_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_KEY_END_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_KEY_END_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -4207,7 +4207,7 @@ intgo _wrap_NEWT_KEY_END_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_KEY_UNTAB_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_KEY_UNTAB_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -4218,7 +4218,7 @@ intgo _wrap_NEWT_KEY_UNTAB_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_KEY_PGUP_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_KEY_PGUP_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -4229,7 +4229,7 @@ intgo _wrap_NEWT_KEY_PGUP_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_KEY_PGDN_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_KEY_PGDN_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -4240,7 +4240,7 @@ intgo _wrap_NEWT_KEY_PGDN_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_KEY_INSERT_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_KEY_INSERT_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -4251,7 +4251,7 @@ intgo _wrap_NEWT_KEY_INSERT_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_KEY_F1_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_KEY_F1_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -4262,7 +4262,7 @@ intgo _wrap_NEWT_KEY_F1_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_KEY_F2_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_KEY_F2_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -4273,7 +4273,7 @@ intgo _wrap_NEWT_KEY_F2_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_KEY_F3_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_KEY_F3_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -4284,7 +4284,7 @@ intgo _wrap_NEWT_KEY_F3_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_KEY_F4_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_KEY_F4_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -4295,7 +4295,7 @@ intgo _wrap_NEWT_KEY_F4_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_KEY_F5_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_KEY_F5_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -4306,7 +4306,7 @@ intgo _wrap_NEWT_KEY_F5_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_KEY_F6_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_KEY_F6_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -4317,7 +4317,7 @@ intgo _wrap_NEWT_KEY_F6_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_KEY_F7_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_KEY_F7_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -4328,7 +4328,7 @@ intgo _wrap_NEWT_KEY_F7_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_KEY_F8_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_KEY_F8_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -4339,7 +4339,7 @@ intgo _wrap_NEWT_KEY_F8_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_KEY_F9_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_KEY_F9_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -4350,7 +4350,7 @@ intgo _wrap_NEWT_KEY_F9_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_KEY_F10_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_KEY_F10_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -4361,7 +4361,7 @@ intgo _wrap_NEWT_KEY_F10_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_KEY_F11_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_KEY_F11_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -4372,7 +4372,7 @@ intgo _wrap_NEWT_KEY_F11_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_KEY_F12_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_KEY_F12_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -4383,7 +4383,7 @@ intgo _wrap_NEWT_KEY_F12_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_KEY_RESIZE_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_KEY_RESIZE_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -4394,7 +4394,7 @@ intgo _wrap_NEWT_KEY_RESIZE_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_KEY_ERROR_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_KEY_ERROR_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -4405,7 +4405,7 @@ intgo _wrap_NEWT_KEY_ERROR_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_ANCHOR_LEFT_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_ANCHOR_LEFT_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -4416,7 +4416,7 @@ intgo _wrap_NEWT_ANCHOR_LEFT_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_ANCHOR_RIGHT_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_ANCHOR_RIGHT_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -4427,7 +4427,7 @@ intgo _wrap_NEWT_ANCHOR_RIGHT_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_ANCHOR_TOP_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_ANCHOR_TOP_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -4438,7 +4438,7 @@ intgo _wrap_NEWT_ANCHOR_TOP_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_ANCHOR_BOTTOM_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_ANCHOR_BOTTOM_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -4449,7 +4449,7 @@ intgo _wrap_NEWT_ANCHOR_BOTTOM_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_GRID_FLAG_GROWX_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_GRID_FLAG_GROWX_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -4460,7 +4460,7 @@ intgo _wrap_NEWT_GRID_FLAG_GROWX_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_GRID_FLAG_GROWY_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_GRID_FLAG_GROWY_newt_b66f7c1329564d0a() {
   int result;
   intgo _swig_go_result;
   
@@ -4471,7 +4471,7 @@ intgo _wrap_NEWT_GRID_FLAG_GROWY_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_GRID_EMPTY_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_GRID_EMPTY_newt_b66f7c1329564d0a() {
   enum newtGridElement result;
   intgo _swig_go_result;
   
@@ -4483,7 +4483,7 @@ intgo _wrap_NEWT_GRID_EMPTY_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_GRID_COMPONENT_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_GRID_COMPONENT_newt_b66f7c1329564d0a() {
   enum newtGridElement result;
   intgo _swig_go_result;
   
@@ -4495,7 +4495,7 @@ intgo _wrap_NEWT_GRID_COMPONENT_newt_dfa5496400248dbe() {
 }
 
 
-intgo _wrap_NEWT_GRID_SUBGRID_newt_dfa5496400248dbe() {
+intgo _wrap_NEWT_GRID_SUBGRID_newt_b66f7c1329564d0a() {
   enum newtGridElement result;
   intgo _swig_go_result;
   
@@ -4507,7 +4507,7 @@ intgo _wrap_NEWT_GRID_SUBGRID_newt_dfa5496400248dbe() {
 }
 
 
-struct grid_s *_wrap_newtCreateGrid_newt_dfa5496400248dbe(intgo _swig_go_0, intgo _swig_go_1) {
+struct grid_s *_wrap_newtCreateGrid_newt_b66f7c1329564d0a(intgo _swig_go_0, intgo _swig_go_1) {
   int arg1 ;
   int arg2 ;
   newtGrid result;
@@ -4522,7 +4522,7 @@ struct grid_s *_wrap_newtCreateGrid_newt_dfa5496400248dbe(intgo _swig_go_0, intg
 }
 
 
-struct grid_s *_wrap_newtGridVStacked_newt_dfa5496400248dbe(intgo _swig_go_0, void *_swig_go_1) {
+struct grid_s *_wrap_newtGridVStacked_newt_b66f7c1329564d0a(intgo _swig_go_0, void *_swig_go_1) {
   enum newtGridElement arg1 ;
   void *arg2 = (void *) 0 ;
   void *arg3 = 0 ;
@@ -4538,7 +4538,7 @@ struct grid_s *_wrap_newtGridVStacked_newt_dfa5496400248dbe(intgo _swig_go_0, vo
 }
 
 
-struct grid_s *_wrap_newtGridVCloseStacked_newt_dfa5496400248dbe(intgo _swig_go_0, void *_swig_go_1) {
+struct grid_s *_wrap_newtGridVCloseStacked_newt_b66f7c1329564d0a(intgo _swig_go_0, void *_swig_go_1) {
   enum newtGridElement arg1 ;
   void *arg2 = (void *) 0 ;
   void *arg3 = 0 ;
@@ -4554,7 +4554,7 @@ struct grid_s *_wrap_newtGridVCloseStacked_newt_dfa5496400248dbe(intgo _swig_go_
 }
 
 
-struct grid_s *_wrap_newtGridHStacked_newt_dfa5496400248dbe(intgo _swig_go_0, void *_swig_go_1) {
+struct grid_s *_wrap_newtGridHStacked_newt_b66f7c1329564d0a(intgo _swig_go_0, void *_swig_go_1) {
   enum newtGridElement arg1 ;
   void *arg2 = (void *) 0 ;
   void *arg3 = 0 ;
@@ -4570,7 +4570,7 @@ struct grid_s *_wrap_newtGridHStacked_newt_dfa5496400248dbe(intgo _swig_go_0, vo
 }
 
 
-struct grid_s *_wrap_newtGridHCloseStacked_newt_dfa5496400248dbe(intgo _swig_go_0, void *_swig_go_1) {
+struct grid_s *_wrap_newtGridHCloseStacked_newt_b66f7c1329564d0a(intgo _swig_go_0, void *_swig_go_1) {
   enum newtGridElement arg1 ;
   void *arg2 = (void *) 0 ;
   void *arg3 = 0 ;
@@ -4586,7 +4586,7 @@ struct grid_s *_wrap_newtGridHCloseStacked_newt_dfa5496400248dbe(intgo _swig_go_
 }
 
 
-struct grid_s *_wrap_newtGridBasicWindow_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, struct grid_s *_swig_go_1, struct grid_s *_swig_go_2) {
+struct grid_s *_wrap_newtGridBasicWindow_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, struct grid_s *_swig_go_1, struct grid_s *_swig_go_2) {
   newtComponent arg1 = (newtComponent) 0 ;
   newtGrid arg2 = (newtGrid) 0 ;
   newtGrid arg3 = (newtGrid) 0 ;
@@ -4603,7 +4603,7 @@ struct grid_s *_wrap_newtGridBasicWindow_newt_dfa5496400248dbe(struct newtCompon
 }
 
 
-struct grid_s *_wrap_newtGridSimpleWindow_newt_dfa5496400248dbe(struct newtComponent_struct *_swig_go_0, struct newtComponent_struct *_swig_go_1, struct grid_s *_swig_go_2) {
+struct grid_s *_wrap_newtGridSimpleWindow_newt_b66f7c1329564d0a(struct newtComponent_struct *_swig_go_0, struct newtComponent_struct *_swig_go_1, struct grid_s *_swig_go_2) {
   newtComponent arg1 = (newtComponent) 0 ;
   newtComponent arg2 = (newtComponent) 0 ;
   newtGrid arg3 = (newtGrid) 0 ;
@@ -4620,7 +4620,7 @@ struct grid_s *_wrap_newtGridSimpleWindow_newt_dfa5496400248dbe(struct newtCompo
 }
 
 
-void _wrap_newtGridSetField_newt_dfa5496400248dbe(struct grid_s *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2, intgo _swig_go_3, void *_swig_go_4, intgo _swig_go_5, intgo _swig_go_6, intgo _swig_go_7, intgo _swig_go_8, intgo _swig_go_9, intgo _swig_go_10) {
+void _wrap_newtGridSetField_newt_b66f7c1329564d0a(struct grid_s *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2, intgo _swig_go_3, void *_swig_go_4, intgo _swig_go_5, intgo _swig_go_6, intgo _swig_go_7, intgo _swig_go_8, intgo _swig_go_9, intgo _swig_go_10) {
   newtGrid arg1 = (newtGrid) 0 ;
   int arg2 ;
   int arg3 ;
@@ -4650,7 +4650,7 @@ void _wrap_newtGridSetField_newt_dfa5496400248dbe(struct grid_s *_swig_go_0, int
 }
 
 
-void _wrap_newtGridPlace_newt_dfa5496400248dbe(struct grid_s *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+void _wrap_newtGridPlace_newt_b66f7c1329564d0a(struct grid_s *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   newtGrid arg1 = (newtGrid) 0 ;
   int arg2 ;
   int arg3 ;
@@ -4664,7 +4664,7 @@ void _wrap_newtGridPlace_newt_dfa5496400248dbe(struct grid_s *_swig_go_0, intgo 
 }
 
 
-void _wrap_newtGridFree_newt_dfa5496400248dbe(struct grid_s *_swig_go_0, intgo _swig_go_1) {
+void _wrap_newtGridFree_newt_b66f7c1329564d0a(struct grid_s *_swig_go_0, intgo _swig_go_1) {
   newtGrid arg1 = (newtGrid) 0 ;
   int arg2 ;
   
@@ -4676,7 +4676,7 @@ void _wrap_newtGridFree_newt_dfa5496400248dbe(struct grid_s *_swig_go_0, intgo _
 }
 
 
-void _wrap_newtGridGetSize_newt_dfa5496400248dbe(struct grid_s *_swig_go_0, intgo *_swig_go_1, intgo *_swig_go_2) {
+void _wrap_newtGridGetSize_newt_b66f7c1329564d0a(struct grid_s *_swig_go_0, intgo *_swig_go_1, intgo *_swig_go_2) {
   newtGrid arg1 = (newtGrid) 0 ;
   int *arg2 = (int *) 0 ;
   int *arg3 = (int *) 0 ;
@@ -4690,7 +4690,7 @@ void _wrap_newtGridGetSize_newt_dfa5496400248dbe(struct grid_s *_swig_go_0, intg
 }
 
 
-void _wrap_newtGridWrappedWindow_newt_dfa5496400248dbe(struct grid_s *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_newtGridWrappedWindow_newt_b66f7c1329564d0a(struct grid_s *_swig_go_0, _gostring_ _swig_go_1) {
   newtGrid arg1 = (newtGrid) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -4707,7 +4707,7 @@ void _wrap_newtGridWrappedWindow_newt_dfa5496400248dbe(struct grid_s *_swig_go_0
 }
 
 
-void _wrap_newtGridWrappedWindowAt_newt_dfa5496400248dbe(struct grid_s *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2, intgo _swig_go_3) {
+void _wrap_newtGridWrappedWindowAt_newt_b66f7c1329564d0a(struct grid_s *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2, intgo _swig_go_3) {
   newtGrid arg1 = (newtGrid) 0 ;
   char *arg2 = (char *) 0 ;
   int arg3 ;
@@ -4728,7 +4728,7 @@ void _wrap_newtGridWrappedWindowAt_newt_dfa5496400248dbe(struct grid_s *_swig_go
 }
 
 
-void _wrap_newtGridAddComponentsToForm_newt_dfa5496400248dbe(struct grid_s *_swig_go_0, struct newtComponent_struct *_swig_go_1, intgo _swig_go_2) {
+void _wrap_newtGridAddComponentsToForm_newt_b66f7c1329564d0a(struct grid_s *_swig_go_0, struct newtComponent_struct *_swig_go_1, intgo _swig_go_2) {
   newtGrid arg1 = (newtGrid) 0 ;
   newtComponent arg2 = (newtComponent) 0 ;
   int arg3 ;
@@ -4742,7 +4742,7 @@ void _wrap_newtGridAddComponentsToForm_newt_dfa5496400248dbe(struct grid_s *_swi
 }
 
 
-struct grid_s *_wrap_newtButtonBarv_newt_dfa5496400248dbe(_gostring_ _swig_go_0, struct newtComponent_struct **_swig_go_1, va_list *_swig_go_2) {
+struct grid_s *_wrap_newtButtonBarv_newt_b66f7c1329564d0a(_gostring_ _swig_go_0, struct newtComponent_struct **_swig_go_1, va_list *_swig_go_2) {
   char *arg1 = (char *) 0 ;
   newtComponent *arg2 = (newtComponent *) 0 ;
   va_list arg3 ;
@@ -4761,7 +4761,7 @@ struct grid_s *_wrap_newtButtonBarv_newt_dfa5496400248dbe(_gostring_ _swig_go_0,
   if (argp3 == NULL) {
     _swig_gopanic("Attempt to dereference null va_list");
   }
-  memcpy(&arg3, argp3, sizeof(va_list));
+  memcpy(&arg3, argp3, sizeof(va_list))
   
   
   result = (newtGrid)newtButtonBarv(arg1,arg2,arg3);
@@ -4771,7 +4771,7 @@ struct grid_s *_wrap_newtButtonBarv_newt_dfa5496400248dbe(_gostring_ _swig_go_0,
 }
 
 
-struct grid_s *_wrap_newtButtonBar_newt_dfa5496400248dbe(_gostring_ _swig_go_0, struct newtComponent_struct **_swig_go_1) {
+struct grid_s *_wrap_newtButtonBar_newt_b66f7c1329564d0a(_gostring_ _swig_go_0, struct newtComponent_struct **_swig_go_1) {
   char *arg1 = (char *) 0 ;
   newtComponent *arg2 = (newtComponent *) 0 ;
   void *arg3 = 0 ;
@@ -4792,7 +4792,7 @@ struct grid_s *_wrap_newtButtonBar_newt_dfa5496400248dbe(_gostring_ _swig_go_0, 
 }
 
 
-void _wrap_newtWinMessage_newt_dfa5496400248dbe(_gostring_ _swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2) {
+void _wrap_newtWinMessage_newt_b66f7c1329564d0a(_gostring_ _swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2) {
   char *arg1 = (char *) 0 ;
   char *arg2 = (char *) 0 ;
   char *arg3 = (char *) 0 ;
@@ -4822,7 +4822,7 @@ void _wrap_newtWinMessage_newt_dfa5496400248dbe(_gostring_ _swig_go_0, _gostring
 }
 
 
-void _wrap_newtWinMessagev_newt_dfa5496400248dbe(_gostring_ _swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2, va_list *_swig_go_3) {
+void _wrap_newtWinMessagev_newt_b66f7c1329564d0a(_gostring_ _swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2, va_list *_swig_go_3) {
   char *arg1 = (char *) 0 ;
   char *arg2 = (char *) 0 ;
   char *arg3 = (char *) 0 ;
@@ -4860,7 +4860,7 @@ void _wrap_newtWinMessagev_newt_dfa5496400248dbe(_gostring_ _swig_go_0, _gostrin
 }
 
 
-intgo _wrap_newtWinChoice_newt_dfa5496400248dbe(_gostring_ _swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2, _gostring_ _swig_go_3) {
+intgo _wrap_newtWinChoice_newt_b66f7c1329564d0a(_gostring_ _swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2, _gostring_ _swig_go_3) {
   char *arg1 = (char *) 0 ;
   char *arg2 = (char *) 0 ;
   char *arg3 = (char *) 0 ;
@@ -4900,7 +4900,7 @@ intgo _wrap_newtWinChoice_newt_dfa5496400248dbe(_gostring_ _swig_go_0, _gostring
 }
 
 
-intgo _wrap_newtWinTernary_newt_dfa5496400248dbe(_gostring_ _swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2, _gostring_ _swig_go_3, _gostring_ _swig_go_4) {
+intgo _wrap_newtWinTernary_newt_b66f7c1329564d0a(_gostring_ _swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2, _gostring_ _swig_go_3, _gostring_ _swig_go_4) {
   char *arg1 = (char *) 0 ;
   char *arg2 = (char *) 0 ;
   char *arg3 = (char *) 0 ;
@@ -4947,7 +4947,7 @@ intgo _wrap_newtWinTernary_newt_dfa5496400248dbe(_gostring_ _swig_go_0, _gostrin
 }
 
 
-intgo _wrap_newtWinMenu_newt_dfa5496400248dbe(_gostring_ _swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2, intgo _swig_go_3, intgo _swig_go_4, intgo _swig_go_5, _gostring_* _swig_go_6, intgo *_swig_go_7, _gostring_ _swig_go_8) {
+intgo _wrap_newtWinMenu_newt_b66f7c1329564d0a(_gostring_ _swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2, intgo _swig_go_3, intgo _swig_go_4, intgo _swig_go_5, _gostring_* _swig_go_6, intgo *_swig_go_7, _gostring_ _swig_go_8) {
   char *arg1 = (char *) 0 ;
   char *arg2 = (char *) 0 ;
   int arg3 ;
@@ -4992,7 +4992,7 @@ intgo _wrap_newtWinMenu_newt_dfa5496400248dbe(_gostring_ _swig_go_0, _gostring_ 
 }
 
 
-void _wrap_newtWinEntry_text_set_newt_dfa5496400248dbe(struct newtWinEntry *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_newtWinEntry_text_set_newt_b66f7c1329564d0a(struct newtWinEntry *_swig_go_0, _gostring_ _swig_go_1) {
   struct newtWinEntry *arg1 = (struct newtWinEntry *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -5017,7 +5017,7 @@ void _wrap_newtWinEntry_text_set_newt_dfa5496400248dbe(struct newtWinEntry *_swi
 }
 
 
-_gostring_ _wrap_newtWinEntry_text_get_newt_dfa5496400248dbe(struct newtWinEntry *_swig_go_0) {
+_gostring_ _wrap_newtWinEntry_text_get_newt_b66f7c1329564d0a(struct newtWinEntry *_swig_go_0) {
   struct newtWinEntry *arg1 = (struct newtWinEntry *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -5030,7 +5030,7 @@ _gostring_ _wrap_newtWinEntry_text_get_newt_dfa5496400248dbe(struct newtWinEntry
 }
 
 
-void _wrap_newtWinEntry_value_set_newt_dfa5496400248dbe(struct newtWinEntry *_swig_go_0, _gostring_* _swig_go_1) {
+void _wrap_newtWinEntry_value_set_newt_b66f7c1329564d0a(struct newtWinEntry *_swig_go_0, _gostring_* _swig_go_1) {
   struct newtWinEntry *arg1 = (struct newtWinEntry *) 0 ;
   char **arg2 = (char **) 0 ;
   
@@ -5042,7 +5042,7 @@ void _wrap_newtWinEntry_value_set_newt_dfa5496400248dbe(struct newtWinEntry *_sw
 }
 
 
-_gostring_* _wrap_newtWinEntry_value_get_newt_dfa5496400248dbe(struct newtWinEntry *_swig_go_0) {
+_gostring_* _wrap_newtWinEntry_value_get_newt_b66f7c1329564d0a(struct newtWinEntry *_swig_go_0) {
   struct newtWinEntry *arg1 = (struct newtWinEntry *) 0 ;
   char **result = 0 ;
   _gostring_* _swig_go_result;
@@ -5055,7 +5055,7 @@ _gostring_* _wrap_newtWinEntry_value_get_newt_dfa5496400248dbe(struct newtWinEnt
 }
 
 
-void _wrap_newtWinEntry_flags_set_newt_dfa5496400248dbe(struct newtWinEntry *_swig_go_0, intgo _swig_go_1) {
+void _wrap_newtWinEntry_flags_set_newt_b66f7c1329564d0a(struct newtWinEntry *_swig_go_0, intgo _swig_go_1) {
   struct newtWinEntry *arg1 = (struct newtWinEntry *) 0 ;
   int arg2 ;
   
@@ -5067,7 +5067,7 @@ void _wrap_newtWinEntry_flags_set_newt_dfa5496400248dbe(struct newtWinEntry *_sw
 }
 
 
-intgo _wrap_newtWinEntry_flags_get_newt_dfa5496400248dbe(struct newtWinEntry *_swig_go_0) {
+intgo _wrap_newtWinEntry_flags_get_newt_b66f7c1329564d0a(struct newtWinEntry *_swig_go_0) {
   struct newtWinEntry *arg1 = (struct newtWinEntry *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -5080,7 +5080,7 @@ intgo _wrap_newtWinEntry_flags_get_newt_dfa5496400248dbe(struct newtWinEntry *_s
 }
 
 
-struct newtWinEntry *_wrap_new_newtWinEntry_newt_dfa5496400248dbe() {
+struct newtWinEntry *_wrap_new_newtWinEntry_newt_b66f7c1329564d0a() {
   struct newtWinEntry *result = 0 ;
   struct newtWinEntry *_swig_go_result;
   
@@ -5091,7 +5091,7 @@ struct newtWinEntry *_wrap_new_newtWinEntry_newt_dfa5496400248dbe() {
 }
 
 
-void _wrap_delete_newtWinEntry_newt_dfa5496400248dbe(struct newtWinEntry *_swig_go_0) {
+void _wrap_delete_newtWinEntry_newt_b66f7c1329564d0a(struct newtWinEntry *_swig_go_0) {
   struct newtWinEntry *arg1 = (struct newtWinEntry *) 0 ;
   
   arg1 = *(struct newtWinEntry **)&_swig_go_0; 
@@ -5101,7 +5101,7 @@ void _wrap_delete_newtWinEntry_newt_dfa5496400248dbe(struct newtWinEntry *_swig_
 }
 
 
-intgo _wrap_newtWinEntries_newt_dfa5496400248dbe(_gostring_ _swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2, intgo _swig_go_3, intgo _swig_go_4, intgo _swig_go_5, struct newtWinEntry *_swig_go_6, _gostring_ _swig_go_7) {
+intgo _wrap_newtWinEntries_newt_b66f7c1329564d0a(_gostring_ _swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2, intgo _swig_go_3, intgo _swig_go_4, intgo _swig_go_5, struct newtWinEntry *_swig_go_6, _gostring_ _swig_go_7) {
   char *arg1 = (char *) 0 ;
   char *arg2 = (char *) 0 ;
   int arg3 ;
